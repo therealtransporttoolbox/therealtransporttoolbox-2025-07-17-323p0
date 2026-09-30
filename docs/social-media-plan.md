@@ -35,6 +35,8 @@ The account owner shared TikTok views and the state of each platform. It changes
 
 - **Reach-lane characters (design rules):** Big Red is a friendly Australian red kangaroo (Higgsfield Element "TRTT Big Red"). Bigfoot Barry is a friendly, goofy sasquatch who keeps getting into trouble without meaning to. Neither is scary or aggressive. Keep emergency vehicles, fire and explosions out of scenes: an earlier Barry video with those elements was pulled from YouTube. Each clip teaches one correct legal point and is labelled as fiction and AI.
 
+- **Character talking clips (tested 30 September 2026):** Higgsfield Elements "TRTT Big Red" and "TRTT Bigfoot Barry" hold each look. Photorealistic stills, then Hedra Avatar (9:16, 720p) with an ElevenLabs V3 voice from Hedra. Barry uses the Australian voice "Charlie" and the owner rated the result great; Kling AI Avatar v2 also works for him. Big Red's voice is undecided: "James" sounded British to the owner, and candidate replacements are being compared. Keep characters photorealistic ("NOT cartoon, NOT mascot costume") and friendly; put the humour in the situation.
+
 ### Platform roles (replaces the table under "The plan")
 
 | Platform | Role | Effort |

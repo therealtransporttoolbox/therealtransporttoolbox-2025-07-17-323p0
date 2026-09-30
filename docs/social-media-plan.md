@@ -32,8 +32,8 @@ Follower counts were not available. Get them before setting targets.
 
 ## Weaknesses found
 
-1. Placeholder graphics with a literal `n` in place of a line break ("Fatigue ledgernAudit-ready SMS") were published to Instagram and TikTok on 21 to 29 September. Two more were queued for 1 October and have been paused.
-2. Up to 10 posts a day, the same copy on several platforms, on a 4-hourly queue, with approval switched off.
+1. Placeholder graphics with a literal `n` in place of a line break ("Fatigue ledgernAudit-ready SMS", "CoR is notnjust the driver") were published to Instagram and TikTok on 21 to 29 September.
+2. Up to 10 posts a day, the same copy on several platforms, on a 4-hourly queue, with no approval step.
 3. About two-thirds of queued posts open "Picture this.", "Here's a common one." or "Quick question."
 4. Invented characters with specific figures are presented as common cases. Paul Conley's LinkedIn comment treated one as real ("as he had admitted it").
 5. Posts break the brand's own rules: "3 things I'd check" lists, em-dash sign-offs, contrast lines, and 300 to 450 word posts against a Year 7 brief.
@@ -46,17 +46,26 @@ Follower counts were not available. Get them before setting targets.
 ## Decisions made (30 September 2026)
 
 - **X: reduce.** Kept for news reaction only (target 2 to 3 a week).
-- **Queue: pause and thin.** The next 14 days were cut to one main post a day plus videos, carousels and LinkedIn stories. Nothing was deleted.
+- **Queue: pause and thin.** The next 14 days were cut to one main post a day plus videos, carousels and LinkedIn stories. Thinned posts were moved to draft, not deleted.
 - **Time-sensitive items go first.** New NHVR notices, advice and court outcomes jump the queue (see the fast lane below).
-- **Old GitHub site: replace with a redirect** to therealtransporttoolbox.vip.
+- **Old GitHub site: replace with a redirect** to therealtransporttoolbox.vip, and delete the old blog pages.
+- **Broken placeholder posts: delete.**
+- **"After the Fine" series: pull forward** to start as early as possible.
+- **Post approval:** the RobinReach setting is locked on the current plan ("Upgrade to unlock"), so drafts are the gate (see Governance).
 
 ## Actions completed
 
-- Paused posts 1022570 (Instagram) and 1022571 (TikTok): broken placeholder graphic, due 1 October 08:00 AEST.
+- Deleted the old blog pages (`blog.html` and the 2024 US-based blog post).
+- Deleted the 14 published placeholder-graphic posts and the two paused drafts (1022570, 1022571) from RobinReach. RobinReach does not confirm that a delete removes the live post from Instagram or TikTok, so check each URL under Open items.
 - Moved 43 posts to draft for thinning or X reduction (the 39 listed in the restore log plus the four X-only teasers), labelled `paused-review-2026-09-30`.
 - X removed from nine three-platform posts (now Facebook and LinkedIn): 1025830, 1025831, 1038500, 1038504, 1038923, 1038927, 1038939, 1047291, 1047303. Removed from two Facebook lane posts (now Facebook only): 1039082, 1008347. X-only teasers 1022552, 1039047, 1039050, 1039052 moved to draft. All carry the label `x-reduced`.
 - X stays on: 1025823, 1047302, 1038918, 1038932, 1047308.
 - Pulled forward (label `news-fast-lane`): 1047302, the PBS Tier 1 notice replaced on 24 September, from 12 October to 1 October 11:00 AEST; 1038918, NHVR's shared responsibility advice of 22 September, from 6 October to 2 October 07:00 AEST.
+- Pulled the "After the Fine" series (21 posts, LinkedIn only) forward 13 days. It now runs from 1 October 09:00 to 6 October 09:00 Melbourne time, four posts a day at 09:00, 13:00, 17:00 and 21:00. Label `pulled-forward-2026-09-30`.
+  - Post 1048420: removed "for Monday" because the series now ends on a Tuesday.
+  - Post 1048411: corrected the fuel paragraph against the Fair Work Commission case page (last updated 14 September 2026). The order was made on 20 April 2026, the fuel obligations no longer apply since July, the order was not revoked, and a hearing is listed for 9 October 2026. The earlier text said a hearing on 28 September had considered switching it back on.
+- Cleared LinkedIn of competing filler while the series runs (label `series-window-li-removed`): LinkedIn removed from 1025823 (now X and Facebook), 1025830, 1025831, 1038500 and 1038504 (now Facebook only), and 1039085 and 1039086 (now Facebook and Instagram). LinkedIn stories 930780 and 930781 moved to 7 and 9 October. The two fast-lane posts (1047302, 1038918) stay on LinkedIn.
+- Post 1038504: removed a reference to "yesterday's Euro VI posts", which had been thinned.
 - Replied on LinkedIn to Paul Conley's comment, saying the example is made up and asking how defect notices reach the office.
 - Replaced `index.html` with a redirect page. Added `tools/voice_lint.py`.
 
@@ -64,13 +73,11 @@ Follower counts were not available. Get them before setting targets.
 
 To bring a paused post back, filter RobinReach by label `paused-review-2026-09-30`, fix it, and set it to scheduled with a new time.
 
-Paused for broken graphics: 1022570, 1022571.
-
 Thinned to draft: 1025822, 1025824, 1025825, 1025826, 1025827, 1025828, 1025829, 1025832, 1025833, 1025834, 1038486, 1038487, 1038501, 1038502, 1038503, 1038916, 1038919, 1038920, 1038921, 1038922, 1038924, 1038925, 1038926, 1038928, 1038929, 1038930, 1038933, 1038935, 1038936, 1038937, 1038938, 1047292, 1047296, 1047297, 1047301, 1047304, 1047306, 1047310, 1022553.
 
-Several drafts are good posts held back for pacing. Some are worth re-releasing once the news items ahead of them clear. 1047306 and 1047310 repeat stories already published on 27 September.
+Several drafts are good posts held back for pacing. Some are worth re-releasing once the news items ahead of them clear. 1047306 and 1047310 repeat stories already published on 27 September. The Euro VI series (1038501, 1038502, 1038503) was thinned to one post (1038500).
 
-Not reviewed: scheduled posts after 14 October (the "After the Fine" series runs 14 to 18 October, LinkedIn only) and about 30 further scheduled posts outside the 14-day calendar.
+Not reviewed: scheduled posts after 14 October and about 30 further scheduled posts outside the 14-day calendar.
 
 ## The plan
 
@@ -88,8 +95,9 @@ TRTT should not be last to the conversation.
 
 - Show the law: the highlighted section, what it says, what to do on Monday.
 - A source line and "last verified" date on every compliance post. Publish visible corrections.
+- Check every "CHECK" label before scheduling. The fuel-order check on post 1048411 found a wrong date.
 - Label invented scenarios as examples, or use real cases.
-- At least one real photo, document or face a week. No holographic dashboards.
+- At least one real photo, document or face a week. No holographic dashboards. No text-on-navy placeholder cards.
 - Vary hooks: a scene, a flat fact, a real question.
 - Run `python3 tools/voice_lint.py` on every draft before it is scheduled.
 
@@ -97,7 +105,7 @@ TRTT should not be last to the conversation.
 
 | Platform | Role | Cadence |
 |---|---|---|
-| LinkedIn | Home base for operators, directors, managers. | 3 to 4 posts a week, up to 250 words, one carousel a week |
+| LinkedIn | Home base for operators, directors, managers. | 3 to 4 posts a week, up to 250 words, one carousel a week (the "After the Fine" series is the exception: four a day for six days) |
 | YouTube | Proof engine and the only channel with a measured audience. | 2 a week |
 | Facebook | Owner-operators and drivers. One specific question per post. | 3 a week |
 | Instagram and TikTok | Re-cuts of the YouTube video only. Never text cards. | Up to 3 a week; review at day 60 |
@@ -113,7 +121,7 @@ Reply to every human comment within 24 hours (30 minutes a day). Comment thought
 
 ### Governance
 
-- Switch on post approval in RobinReach settings (not settable through the tools used here).
+- Post approval is locked on the current RobinReach plan (the setting shows "Upgrade to unlock"). Use drafts as the gate: new content is saved as a draft, run through `tools/voice_lint.py`, checked against its source, and scheduled only after the Sunday review. The fast lane is the exception and needs a second read before publishing.
 - 30-minute Sunday review of the next week's queue.
 - Add UTM tags to every link.
 - Monthly accuracy spot check of the ten most-viewed posts.
@@ -128,11 +136,13 @@ Reply to every human comment within 24 hours (30 minutes a day). Comment thought
 
 ### Presenter and AI avatar policy (proposed)
 
-If AI presenter video is used:
+Both current presenter faces (the fair-haired "Herby Green" persona and the bearded on-site "manager") are AI-generated. If AI presenter video is used:
 - Say so in the profile bio and on the video, and switch on the platform's AI-generated content label (TikTok, YouTube, Instagram and Facebook all have one).
-- Use it for explainers where the script is Herby's. Never for testimonials, "operator" witnesses or case scenes presented as real.
-- Get written consent for any real person's likeness or voice.
-- Keep real footage and Herby's own voice for trust-critical content: corrections, court cases, announcements.
+- Do not present either face as a real staff member. Do not use the name "Herby Green" on screen for the AI face; the real Herby is the named author of the scripts. Suggested wording: "AI presenter. Scripts written and checked by Herby Green."
+- Use it for explainers. Never for testimonials, "operator" witnesses or case scenes presented as real.
+- Voices: use stock voices, or clone only a voice whose owner has given written consent.
+- Keep real footage and the real Herby's voice for trust-critical content: corrections, court cases, announcements.
+- Working project: "TRTT AI Presenters" in Higgsfield (12 reference stills of the Herby persona made on 30 September; the manager persona still needs a source image).
 
 ### Measurement
 
@@ -140,14 +150,17 @@ Baseline first (follower counts, native impressions, link clicks, newsletter sig
 
 ### 30, 60, 90 days
 
-- **Days 0 to 7:** fix broken assets; reply to comments; verify native insights; switch on approval; set the fast lane in motion; add UTM tags.
-- **Days 8 to 30:** brand kit and templates; rebuilt cadence; YouTube video format.
+- **Days 0 to 7:** broken assets removed; run the "After the Fine" series; reply to comments; verify native insights; use the draft gate; set the fast lane in motion; add UTM tags.
+- **Days 8 to 30:** brand kit and templates; rebuilt cadence; YouTube video format; first AI presenter test clip.
 - **Days 31 to 60:** engagement and partnerships; test Instagram, TikTok and X.
 - **Days 61 to 90:** review the data; cut weak platforms; double down on what works.
 
 ## Open items
 
-- Old blog pages (`blog.html`, `blog/essential-transport-safety-regulations-for-2024.html`) still exist in the repository. They contain incorrect US-based content and should be deleted. The deletion needs explicit approval.
-- Published Instagram and TikTok posts 1022556 to 1022569 use the broken placeholder graphics. Decide whether to delete them.
-- "After the Fine" series: decide whether to pull it forward. The earliest start is 1 October 08:00 AEST. Post 1048411 needs its fuel order outcome checked first, and post 1048420 says "for Monday", which would need a wording change.
-- Privacy and terms pages are generic templates and need a legal review.
+- **Confirm the broken-graphic posts are gone from Instagram and TikTok.** RobinReach deleted its records but did not confirm removal of the live posts. If any of these are still up, delete them in the app.
+  - Instagram: https://www.instagram.com/p/DdkLueBGEVa/ , https://www.instagram.com/p/Ddmwg22mBd2/ , https://www.instagram.com/p/DdpVTlEmL9F/ , https://www.instagram.com/p/Ddr6GI3mMG5/ , https://www.instagram.com/p/Ddue40Nkvq7/ , https://www.instagram.com/p/Dd2NR8GmFX5/ , https://www.instagram.com/p/Dd4yEpdGDZC/
+  - TikTok (all under @therealtransporttoolbox): video/7688111754039069970 , video/7688482814156655880 , video/7688853875373214994 , video/7689224945913580807 , video/7689596056090217735 , video/7690709306215353618 , video/7691080418421951762
+- **Watch LinkedIn reach after the first two days of the series.** Four posts a day is above the normal cadence. If reach falls, drop to two a day.
+- **Native insights and follower counts** are still needed to set baselines.
+- **Manager persona:** needs a source image in Higgsfield before samples can be built.
+- **Privacy and terms pages** are generic templates and need a legal review.

@@ -142,7 +142,7 @@ Both current presenter faces (the fair-haired "Herby Green" persona and the bear
 - Use it for explainers. Never for testimonials, "operator" witnesses or case scenes presented as real.
 - Voices: use stock voices, or clone only a voice whose owner has given written consent.
 - Keep real footage and the real Herby's voice for trust-critical content: corrections, court cases, announcements.
-- Working project: "TRTT AI Presenters" in Higgsfield. Presenter A (the Herby persona) has a Soul character and an Element; Presenter B (the bearded on-site manager) has an Element and reference stills. His Soul is not trained yet.
+- Working project: "TRTT AI Presenters" in Higgsfield. Presenter A (the Herby persona) has a Soul character (trained and approved by the account owner) and an Element; Presenter B (the bearded on-site manager) has an Element and reference stills. His Soul is not trained yet.
 - Voice: the consented "Marty V3" voice, made by the account owner in Higgsfield.
 
 #### Talking-head pipeline (tested 30 September 2026)

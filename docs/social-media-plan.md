@@ -142,7 +142,19 @@ Both current presenter faces (the fair-haired "Herby Green" persona and the bear
 - Use it for explainers. Never for testimonials, "operator" witnesses or case scenes presented as real.
 - Voices: use stock voices, or clone only a voice whose owner has given written consent.
 - Keep real footage and the real Herby's voice for trust-critical content: corrections, court cases, announcements.
-- Working project: "TRTT AI Presenters" in Higgsfield (12 reference stills of the Herby persona made on 30 September; the manager persona still needs a source image).
+- Working project: "TRTT AI Presenters" in Higgsfield. Presenter A (the Herby persona) has a Soul character and an Element; Presenter B (the bearded on-site manager) has an Element and reference stills. His Soul is not trained yet.
+- Voice: the consented "Marty V3" voice, made by the account owner in Higgsfield.
+
+#### Talking-head pipeline (tested 30 September 2026)
+
+1. Write the script and run `tools/voice_lint.py` on it.
+2. Generate the speech in Higgsfield with the Marty V3 voice. Import the audio as a media file so video models treat it as a real audio reference.
+3. Make the start frame (still) in Higgsfield.
+4. Animate in Hedra with the Hedra Avatar model (3:4, 720p) using the start frame and the audio. This gave the best mouth movement in a side-by-side test. VEED Fabric 1.0 was very close but cost about four times as much. Higgsfield Seedance video had visible mouth tells.
+5. Trim to about 8 to 10 seconds per clip and cut away to b-roll, documents or screen captures often so viewers do not watch the mouth for long.
+6. Label as AI, add the end card "AI presenter. Scripts written and checked by Herby Green.", and get sign-off before it goes in the queue as a draft.
+
+Hedra needs its own signed upload URL (files uploaded with `upload_file`, valid for one hour). Public URLs are rejected.
 
 ### Measurement
 
@@ -157,10 +169,8 @@ Baseline first (follower counts, native impressions, link clicks, newsletter sig
 
 ## Open items
 
-- **Confirm the broken-graphic posts are gone from Instagram and TikTok.** RobinReach deleted its records but did not confirm removal of the live posts. If any of these are still up, delete them in the app.
-  - Instagram: https://www.instagram.com/p/DdkLueBGEVa/ , https://www.instagram.com/p/Ddmwg22mBd2/ , https://www.instagram.com/p/DdpVTlEmL9F/ , https://www.instagram.com/p/Ddr6GI3mMG5/ , https://www.instagram.com/p/Ddue40Nkvq7/ , https://www.instagram.com/p/Dd2NR8GmFX5/ , https://www.instagram.com/p/Dd4yEpdGDZC/
-  - TikTok (all under @therealtransporttoolbox): video/7688111754039069970 , video/7688482814156655880 , video/7688853875373214994 , video/7689224945913580807 , video/7689596056090217735 , video/7690709306215353618 , video/7691080418421951762
+- **Broken-graphic posts:** confirmed deleted from Instagram and TikTok by the account owner on 30 September 2026.
 - **Watch LinkedIn reach after the first two days of the series.** Four posts a day is above the normal cadence. If reach falls, drop to two a day.
 - **Native insights and follower counts** are still needed to set baselines.
-- **Manager persona:** needs a source image in Higgsfield before samples can be built.
+- **Presenter B:** choose the preferred stills, then train his Soul. Decide whether he gets a separate voice.
 - **Privacy and terms pages** are generic templates and need a legal review.

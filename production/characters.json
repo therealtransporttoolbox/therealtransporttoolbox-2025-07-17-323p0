@@ -1,0 +1,72 @@
+{
+  "_note": "Approved AI characters, voices and settings for TRTT video. Owner-approved on 30 September 2026. IDs are Higgsfield unless stated. Update this file whenever something new is approved.",
+  "higgsfield": {
+    "project_folder_id": "6dd3ed16-926f-40d3-b064-ee1cf45e4cec",
+    "image_model": "nano_banana_pro",
+    "video_model": "seedance_2_5",
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "still_settings": {"aspect_ratio": "9:16", "resolution": "2k"}
+  },
+  "hedra": {
+    "avatar_model": "hedra-avatar",
+    "avatar_settings": {"presenter_a": {"aspect_ratio": "3:4", "resolution": "720p"}, "characters": {"aspect_ratio": "9:16", "resolution": "720p"}},
+    "speech_model": "elevenlabs-v3",
+    "notes": "Hedra upload_file links are one-hour signed URLs. Pass the exact URL from the upload result. Library asset IDs (asset_...) can be used with lipsync_audio_id and similar fields."
+  },
+  "characters": {
+    "presenter_a": {
+      "role": "Trust lane on-screen presenter (fair-haired Herby persona)",
+      "element_id": "64bb45b6-ab43-4698-a05e-4bb30f3a8ed3",
+      "soul_id": "49abf8b4-f29a-41a7-ba56-c10f29a47c23",
+      "soul_note": "Owner approved the look; the character list still showed it as queued on 30 Sep. Check before relying on it.",
+      "approved_start_frame": "b4340d04-c0c0-4da8-8d6d-02fb302c6bb9",
+      "voice": {"name": "Marty V3", "hedra_voice_id": "voice_6717b15d-2c37-4524-aa0d-11fddf818334", "model": "elevenlabs-v3", "status": "approved (spot on)"},
+      "lip_sync": {"tool": "hedra-avatar", "aspect_ratio": "3:4", "resolution": "720p", "status": "approved"}
+    },
+    "presenter_b": {
+      "role": "On-site manager persona (bearded, navy shirt, hi-vis vest)",
+      "element_id": "c638faf5-9994-46f4-9a79-8749f2efb474",
+      "soul_id": "d5096ab1-6f02-4b00-9aec-3f4b5d2bd730",
+      "soul_note": "Training was queued on 30 Sep; not yet confirmed ready.",
+      "approved_stills": ["d9543680-ab54-447b-a01a-9feb4c1e0751", "d46b60e2-c676-4582-a268-b1acbd3acfb2", "79e88955-a23f-4eaa-8ad6-28abac3a4628", "3f73cb29-c62b-441a-a680-0d85a084d488"],
+      "voice": {"status": "not decided"}
+    },
+    "big_red": {
+      "role": "Reach lane: friendly Australian red kangaroo",
+      "element_id": "9334feaa-72c2-4b3f-bfcf-ab3d211e24c6",
+      "look": "Photorealistic, warm eyes, soft closed-mouth smile, relaxed ears, yellow hi-vis vest. Friendly, never aggressive.",
+      "approved_stills": {
+        "full_body_yard": "44ad1db4-f391-429a-b4a7-0d8d30d56a55",
+        "portrait": "d90c0555-fe9d-4435-b3a0-972fc9d24863",
+        "clipboard": "3a9a53b8-e018-4040-b68b-e5edc5e435b6",
+        "wave": "51287a63-cbb7-4245-a014-dd11fba5dbf5",
+        "smoko": "8d0239c4-5d37-49f1-bd7d-4a64e00158e5",
+        "concerned": "04557dc2-a80b-4b0c-b0c5-7c35ba47ec60",
+        "selfie_truck": "1e35f278-0ea9-47a6-8325-c30c050d8e92"
+      },
+      "hard_hat": "Original hard-hat still (ec4bca21) was rejected. Fitted-hat variants (82edfdc4, 8c640af3, 489624ea, 43659388) were generated but not yet reviewed by the owner.",
+      "voice": {"name": "Benji", "higgsfield_preset_voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1", "how": "generate_audio model text2speech_v2, variant elevenlabs, voice_type preset", "status": "approved (owner: spot on)"},
+      "lip_sync": {"tool": "higgsfield seedance_2_5 omni_reference", "how": "media_import_url the audio as type audio, then medias: start_image (still) + audio_references (imported audio id)", "status": "approved (owner: spot on)"}
+    },
+    "bigfoot_barry": {
+      "role": "Reach lane: friendly, goofy sasquatch who gets into trouble without trying",
+      "element_id": "2d775739-a733-4c01-a316-1672775109c6",
+      "look": "Photorealistic live-action look, NOT cartoon or mascot costume. Shaggy dark-brown fur, round gentle face, kind brown eyes, lopsided grin, oversized lime hi-vis vest. No fire, emergency vehicles or anything frightening (the earlier YouTube version was pulled).",
+      "source_still": "86cff857-3ca0-4c2d-9512-daa80666a137",
+      "approved_stills": {
+        "strap": "19076f48-ef2b-4ce5-8b69-fe849e55917a",
+        "cone": "e0cadf2e-8833-48f0-9bbb-e93c383592ef",
+        "boxes": "88098b68-1492-4ab8-a9fd-75f6912dc9a4",
+        "selfie": "8982ec7f-1609-4a0d-ad7c-420b52ef54db",
+        "meat_pie": "5096191f-c87f-4174-8c3d-0496a1938320",
+        "pallets": "5e291b8b-1980-4ae5-866a-f5cf942a22f6"
+      },
+      "voice": {"name": "Charlie", "hedra_voice_id": "voice_ffc51d7c-afef-4c9b-95ff-822617d8ff0e", "model": "elevenlabs-v3", "status": "approved (owner: great)"},
+      "lip_sync": {"tool": "hedra-avatar", "aspect_ratio": "9:16", "resolution": "720p", "alternative": "kling-ai-avatar-v2", "status": "approved (owner: great)"}
+    }
+  },
+  "broll": {
+    "approved_stills_and_clips": "Truck stills with correct Australian orientation: tray truck 5ddcd4b2, B-double night 1bee6536, road train 05cec337, inspection a8c63254, weighbridge 51a2927f, forklift crate 5f1e8f02 (animated job IDs). Cab and pre-start variants: only the coupling still (e578d2b0) was rejected.",
+    "rules": "See production/RUNBOOK.md, Australian orientation."
+  }
+}

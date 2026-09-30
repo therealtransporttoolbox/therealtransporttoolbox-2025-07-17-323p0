@@ -188,9 +188,9 @@ Both current presenter faces (the fair-haired "Herby Green" persona and the bear
 #### Talking-head pipeline (tested 30 September 2026)
 
 1. Write the script and run `tools/voice_lint.py` on it.
-2. Generate the speech in Higgsfield with the Marty V3 voice. Import the audio as a media file so video models treat it as a real audio reference.
+2. Generate the speech in Hedra with ElevenLabs V3 on the cloned "Marty V3 (TRTT)" voice (cloned from the owner's own voice sample, with the owner's consent). Higgsfield's text-to-speech through the tools did not match the original: the original used the elevenlabs_v4 model, which the tools reject with a 422 error. Pass the Hedra audio asset ID straight to Hedra Avatar.
 3. Make the start frame (still) in Higgsfield.
-4. Animate in Hedra with the Hedra Avatar model (3:4, 720p) using the start frame and the audio. This gave the best mouth movement in a side-by-side test. VEED Fabric 1.0 was very close but cost about four times as much. Higgsfield Seedance video had visible mouth tells.
+4. Animate in Hedra with the Hedra Avatar model (3:4, 720p) using the start frame and the audio. This gave the best mouth movement in a side-by-side test, and the Gosford clip with the cloned voice was judged spot on by the owner. VEED Fabric 1.0 was very close but cost about four times as much. Higgsfield Seedance video had visible mouth tells.
 5. Trim to about 8 to 10 seconds per clip and cut away to b-roll, documents or screen captures often so viewers do not watch the mouth for long.
 6. Label as AI, add the end card "AI presenter. Scripts written and checked by Herby Green.", and get sign-off before it goes in the queue as a draft.
 

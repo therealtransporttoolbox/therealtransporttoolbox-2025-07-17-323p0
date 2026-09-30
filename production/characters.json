@@ -5,11 +5,23 @@
     "image_model": "nano_banana_pro",
     "video_model": "seedance_2_5",
     "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
-    "still_settings": {"aspect_ratio": "9:16", "resolution": "2k"}
+    "still_settings": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    }
   },
   "hedra": {
     "avatar_model": "hedra-avatar",
-    "avatar_settings": {"presenter_a": {"aspect_ratio": "3:4", "resolution": "720p"}, "characters": {"aspect_ratio": "9:16", "resolution": "720p"}},
+    "avatar_settings": {
+      "presenter_a": {
+        "aspect_ratio": "3:4",
+        "resolution": "720p"
+      },
+      "characters": {
+        "aspect_ratio": "9:16",
+        "resolution": "720p"
+      }
+    },
     "speech_model": "elevenlabs-v3",
     "notes": "Hedra upload_file links are one-hour signed URLs. Pass the exact URL from the upload result. Library asset IDs (asset_...) can be used with lipsync_audio_id and similar fields."
   },
@@ -20,16 +32,37 @@
       "soul_id": "49abf8b4-f29a-41a7-ba56-c10f29a47c23",
       "soul_note": "Owner approved the look; the character list still showed it as queued on 30 Sep. Check before relying on it.",
       "approved_start_frame": "b4340d04-c0c0-4da8-8d6d-02fb302c6bb9",
-      "voice": {"name": "Marty V3", "hedra_voice_id": "voice_6717b15d-2c37-4524-aa0d-11fddf818334", "model": "elevenlabs-v3", "status": "approved (spot on)"},
-      "lip_sync": {"tool": "hedra-avatar", "aspect_ratio": "3:4", "resolution": "720p", "status": "approved"}
+      "voice": {
+        "name": "Marty V3",
+        "hedra_voice_id": "voice_6717b15d-2c37-4524-aa0d-11fddf818334",
+        "model": "elevenlabs-v3",
+        "status": "approved (spot on)"
+      },
+      "lip_sync": {
+        "tool": "hedra-avatar",
+        "aspect_ratio": "3:4",
+        "resolution": "720p",
+        "status": "approved"
+      }
     },
     "presenter_b": {
       "role": "On-site manager persona (bearded, navy shirt, hi-vis vest)",
       "element_id": "c638faf5-9994-46f4-9a79-8749f2efb474",
       "soul_id": "d5096ab1-6f02-4b00-9aec-3f4b5d2bd730",
       "soul_note": "Training was queued on 30 Sep; not yet confirmed ready.",
-      "approved_stills": ["d9543680-ab54-447b-a01a-9feb4c1e0751", "d46b60e2-c676-4582-a268-b1acbd3acfb2", "79e88955-a23f-4eaa-8ad6-28abac3a4628", "3f73cb29-c62b-441a-a680-0d85a084d488"],
-      "voice": {"status": "not decided"}
+      "approved_stills": [
+        "d9543680-ab54-447b-a01a-9feb4c1e0751",
+        "d46b60e2-c676-4582-a268-b1acbd3acfb2",
+        "79e88955-a23f-4eaa-8ad6-28abac3a4628",
+        "3f73cb29-c62b-441a-a680-0d85a084d488"
+      ],
+      "voice": {
+        "name": "Esa",
+        "hedra_voice_id": "voice_420628a3-8238-44db-bdff-0eab4e142ead",
+        "model": "elevenlabs-v3",
+        "description": "male, Indian accent, senior, conversational, confident (Hedra voice list)",
+        "status": "selected by owner; sample generated, awaiting owner check"
+      }
     },
     "big_red": {
       "role": "Reach lane: friendly Australian red kangaroo",
@@ -45,8 +78,17 @@
         "selfie_truck": "1e35f278-0ea9-47a6-8325-c30c050d8e92"
       },
       "hard_hat": "Original hard-hat still (ec4bca21) was rejected. Fitted-hat variants (82edfdc4, 8c640af3, 489624ea, 43659388) were generated but not yet reviewed by the owner.",
-      "voice": {"name": "Benji", "higgsfield_preset_voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1", "how": "generate_audio model text2speech_v2, variant elevenlabs, voice_type preset", "status": "approved (owner: spot on)"},
-      "lip_sync": {"tool": "higgsfield seedance_2_5 omni_reference", "how": "media_import_url the audio as type audio, then medias: start_image (still) + audio_references (imported audio id)", "status": "approved (owner: spot on)"}
+      "voice": {
+        "name": "Benji",
+        "higgsfield_preset_voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1",
+        "how": "generate_audio model text2speech_v2, variant elevenlabs, voice_type preset",
+        "status": "approved (owner: spot on)"
+      },
+      "lip_sync": {
+        "tool": "higgsfield seedance_2_5 omni_reference",
+        "how": "media_import_url the audio as type audio, then medias: start_image (still) + audio_references (imported audio id)",
+        "status": "approved (owner: spot on)"
+      }
     },
     "bigfoot_barry": {
       "role": "Reach lane: friendly, goofy sasquatch who gets into trouble without trying",
@@ -61,8 +103,19 @@
         "meat_pie": "5096191f-c87f-4174-8c3d-0496a1938320",
         "pallets": "5e291b8b-1980-4ae5-866a-f5cf942a22f6"
       },
-      "voice": {"name": "Charlie", "hedra_voice_id": "voice_ffc51d7c-afef-4c9b-95ff-822617d8ff0e", "model": "elevenlabs-v3", "status": "approved (owner: great)"},
-      "lip_sync": {"tool": "hedra-avatar", "aspect_ratio": "9:16", "resolution": "720p", "alternative": "kling-ai-avatar-v2", "status": "approved (owner: great)"}
+      "voice": {
+        "name": "Charlie",
+        "hedra_voice_id": "voice_ffc51d7c-afef-4c9b-95ff-822617d8ff0e",
+        "model": "elevenlabs-v3",
+        "status": "approved (owner: great)"
+      },
+      "lip_sync": {
+        "tool": "hedra-avatar",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "alternative": "kling-ai-avatar-v2",
+        "status": "approved (owner: great)"
+      }
     }
   },
   "broll": {

@@ -33,6 +33,8 @@ The account owner shared TikTok views and the state of each platform. It changes
 - **Facebook Page has 4 followers (Instagram 7).** Both Meta accounts are effectively empty, so the low reach is a cold start, not a penalty. No need to recreate the Facebook Page. Build the audience from outside Meta: follow links in the newsletter, storefront, Toolbox Talk downloads, LinkedIn and YouTube descriptions; and post in transport Facebook groups as the real Herby, following each group's rules and not spamming links.
 - **Instagram test content:** re-upload the proven TikTok clips (the AI-presenter shorts and the character clips) as native Reels from the original files, with no TikTok watermark, and switch on Instagram's AI label. Success after 30 days: non-follower reach in the hundreds per Reel and any follower views or interactions. Stop rule unchanged.
 
+- **Reach-lane characters (design rules):** Big Red is a friendly Australian red kangaroo (Higgsfield Element "TRTT Big Red"). Bigfoot Barry is a friendly, goofy sasquatch who keeps getting into trouble without meaning to. Neither is scary or aggressive. Keep emergency vehicles, fire and explosions out of scenes: an earlier Barry video with those elements was pulled from YouTube. Each clip teaches one correct legal point and is labelled as fiction and AI.
+
 ### Platform roles (replaces the table under "The plan")
 
 | Platform | Role | Effort |

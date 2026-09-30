@@ -29,6 +29,7 @@ The account owner shared TikTok views and the state of each platform. It changes
 - **AI labelling.** The presenter shorts already carry TikTok's "Contains AI-generated media" label and the on-screen line "Dramatisation - AI presenter". Keep both on every AI clip, on every platform.
 
 - **Instagram baseline (last 30 days to 30 September 2026, from the Professional dashboard):** 98 views, 81 viewers, 100% from non-followers, 0% from followers, 0 interactions. Top items were Reels and posts from 20 to 28 September with 4 to 47 views; two of them show black thumbnails and may be broken media. Reach is tiny but not zero, so the account is not blocked outright. Account status has not been checked yet.
+- **Instagram follower count is 7.** That explains the 0% follower views: there is almost no audience to serve, so this is not evidence of a shadowban. It also changes the account decision: a new Instagram account loses nothing. Revised stop rule: check Account status once; then either run the 30-day Reels test on the current account or start a fresh professional account with original content only. Do not carry over the old placeholder graphics.
 - **Instagram test content:** re-upload the proven TikTok clips (the AI-presenter shorts and the character clips) as native Reels from the original files, with no TikTok watermark, and switch on Instagram's AI label. Success after 30 days: non-follower reach in the hundreds per Reel and any follower views or interactions. Stop rule unchanged.
 
 ### Platform roles (replaces the table under "The plan")

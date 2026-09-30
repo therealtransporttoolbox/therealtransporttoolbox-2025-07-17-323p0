@@ -194,6 +194,8 @@ Both current presenter faces (the fair-haired "Herby Green" persona and the bear
 5. Trim to about 8 to 10 seconds per clip and cut away to b-roll, documents or screen captures often so viewers do not watch the mouth for long.
 6. Label as AI, add the end card "AI presenter. Scripts written and checked by Herby Green.", and get sign-off before it goes in the queue as a draft.
 
+Truck and cab b-roll: Higgsfield's models default to US traffic (driving on the right, steering wheel on the left). Every road or cab prompt must include "Australian left-hand traffic, right-hand drive vehicle, driving in the left lane", the negatives "NOT right-hand traffic, NOT left-hand drive, NOT American road markings", and no legible text. Generate a still first, check the driver is on the right and traffic on the left, and only then animate it. Untested shortcut: mirror a text-free clip in the editor. A real photo of an Australian prime mover as the source image is the most reliable fix.
+
 Hedra needs its own signed upload URL (files uploaded with `upload_file`, valid for one hour). Public URLs are rejected.
 
 ### Measurement

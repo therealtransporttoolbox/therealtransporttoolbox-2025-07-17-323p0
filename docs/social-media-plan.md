@@ -8,6 +8,41 @@ TRTT is the plain-English, primary-source guide to Australian transport law for 
 
 The content already does this well. The volume, repeated templates and lack of a quality gate make it look like the noise TRTT wants to cut through.
 
+## Revision 2: what the TikTok data changed
+
+The account owner shared TikTok views and the state of each platform. It changes the platform roles below. Where this section and later sections disagree, this section wins.
+
+### What the TikTok numbers show (207 followers, 3,032 likes)
+
+- Character clips lead: Bigfoot Barry about 9,100 views, the cowboy-hat character about 3,500, a cab point-of-view clip about 28,700, a thumbnail-style "vehicle liability" video about 18,900.
+- The AI-presenter shorts (the on-site "manager") sit in the middle at about 400 to 3,800 views.
+- Slide and text-overlay explainers do worst, at about 75 to 160 views. Stop making them.
+- Views are not becoming followers. Measure follower conversion, operator comments and link clicks, not views.
+
+### Decisions
+
+- **Keep the existing accounts.** TikTok is working, so a new account would throw away its history. Do not start a new account on any platform until the tests below have run.
+- **Instagram and Facebook reach is near zero.** Open Instagram Professional dashboard, Account status, and record what it says. Then post 4 to 6 original Reels natively over 30 days. Stop rule: if non-follower reach is still about zero after 30 days and Account status offers no appeal, start a second Instagram account with original content only.
+- **Two content lanes.**
+  - Reach lane: fictional AI characters (Bigfoot Barry, Big Red). Each teaches one correct legal point, is clearly labelled as fiction and AI, and points to the trust lane.
+  - Trust lane: real Herby, real documents and real case reviews. Nothing fictional is presented as fact.
+- **AI labelling.** The presenter shorts already carry TikTok's "Contains AI-generated media" label and the on-screen line "Dramatisation - AI presenter". Keep both on every AI clip, on every platform.
+
+### Platform roles (replaces the table under "The plan")
+
+| Platform | Role | Effort |
+|---|---|---|
+| YouTube | Primary. Searchable and compounds. Real case reviews as long-form, with Shorts cut from the same script. | High |
+| TikTok | Reach engine: characters and AI-presenter shorts. Every clip has one correct legal point and a path to the trust lane. | High |
+| LinkedIn | Trust with managers and executives. Keep the current pace. | Medium |
+| Facebook | Reels, plus posts in transport groups where drivers and owner-operators are. | Medium |
+| Instagram | Cross-post only until Account status is clear. | Low |
+| X | Publish X Articles when a long piece already exists. No daily work. | Minimal |
+
+### Measurement additions
+
+Follower conversion per TikTok clip (new followers divided by views), operator replies a week, link clicks, YouTube views per video and watch time, non-follower reach on Instagram and Facebook.
+
 ## What the data showed
 
 | Item | Result |
@@ -101,7 +136,7 @@ TRTT should not be last to the conversation.
 - Vary hooks: a scene, a flat fact, a real question.
 - Run `python3 tools/voice_lint.py` on every draft before it is scheduled.
 
-### Platform roles
+### Platform roles (original; see Revision 2 above)
 
 | Platform | Role | Cadence |
 |---|---|---|

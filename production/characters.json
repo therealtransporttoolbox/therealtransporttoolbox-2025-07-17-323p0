@@ -60,33 +60,17 @@
         "name": "Esa",
         "hedra_voice_id": "voice_420628a3-8238-44db-bdff-0eab4e142ead",
         "model": "elevenlabs-v3",
-        "description": "male, Indian accent, senior, conversational, confident (Hedra voice list)",
-        "status": "approved (Esa), but under comparison with Samarth and A. Shrey"
+        "status": "approved (owner, 2 October 2026, after comparing Samarth and A. Shrey)"
       },
       "hedra_portrait_asset_id": "asset_958f7164-2797-421b-a091-64f2b6bb929e",
       "lip_sync": {
-        "tool": "under comparison",
-        "note": "Hedra Avatar drifted in parts over a 49 s take. VEED Fabric 1.0 and Kling AI Avatar v2 rendered on the same still and audio for the owner to compare. Prefer takes of 10 to 15 seconds."
+        "tool": "veed-fabric-10",
+        "aspect_ratio": "3:4",
+        "resolution": "720p",
+        "status": "approved (owner: works best on the 49 s Albury take; Hedra Avatar drifted in parts)",
+        "note": "VEED costs about four times Hedra Avatar. Keep it for Presenter B; Presenter A and Barry stay on Hedra Avatar."
       },
-      "voice_candidates": [
-        {
-          "name": "Esa",
-          "hedra_voice_id": "voice_420628a3-8238-44db-bdff-0eab4e142ead",
-          "status": "approved on the Albury clip; owner now wants to compare another"
-        },
-        {
-          "name": "Samarth",
-          "hedra_voice_id": "voice_8a8c3e2b-7077-48d6-ba56-61efa4090811",
-          "note": "closest match in Hedra to the owner's request 'Samart'; male, senior, confident. Hedra labels its language as Tamil, so check the English delivery.",
-          "status": "sample generated on the Albury script, awaiting owner check"
-        },
-        {
-          "name": "A. Shrey",
-          "hedra_voice_id": "voice_9fae8180-671b-48a3-a4c8-336488d7b0b8",
-          "note": "male, Indian accent, young, conversational, classy (Hedra labels)",
-          "status": "sample generated on the Albury script, awaiting owner check"
-        }
-      ]
+      "voice_history": "Samarth and A. Shrey were tested on the Albury script on 2 October 2026 and not chosen."
     },
     "big_red": {
       "role": "Reach lane: friendly Australian red kangaroo",

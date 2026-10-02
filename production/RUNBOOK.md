@@ -37,6 +37,7 @@ Higgsfield models default to US traffic. Every road or cab prompt must include:
 - Positive: "Australian left-hand traffic, right-hand drive vehicle, driving in the left lane". For cabs: "steering wheel on the right side of the cabin, camera positioned from the left (passenger) seat".
 - Negatives: "NOT right-hand traffic, NOT left-hand drive, NOT American road markings, NOT US highway signage".
 - Generate a still first, check it, then animate. Orientation is fixed at the source image, not in the video prompt.
+- For a truck on a road, frame it from directly behind or rear three-quarter. The lane is then unambiguous, and the orientation words alone were not enough for a side view (one in four failed even with the full language).
 - Keep other vehicles out of cab shots. They often appear on the wrong side.
 - Never prompt trailer couplings or air lines: the model draws chains between trucks or puts air lines under the trailer. Air lines connect at the back of the prime mover.
 - No legible text or logos in prompts. Add text in the editor.

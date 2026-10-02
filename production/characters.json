@@ -61,7 +61,12 @@
         "hedra_voice_id": "voice_420628a3-8238-44db-bdff-0eab4e142ead",
         "model": "elevenlabs-v3",
         "description": "male, Indian accent, senior, conversational, confident (Hedra voice list)",
-        "status": "selected by owner; sample generated, awaiting owner check"
+        "status": "approved (owner reviewed the Albury clip and raised only lip-sync, not the voice)"
+      },
+      "hedra_portrait_asset_id": "asset_958f7164-2797-421b-a091-64f2b6bb929e",
+      "lip_sync": {
+        "tool": "under comparison",
+        "note": "Hedra Avatar drifted in parts over a 49 s take. VEED Fabric 1.0 and Kling AI Avatar v2 rendered on the same still and audio for the owner to compare. Prefer takes of 10 to 15 seconds."
       }
     },
     "big_red": {
@@ -75,9 +80,13 @@
         "wave": "51287a63-cbb7-4245-a014-dd11fba5dbf5",
         "smoko": "8d0239c4-5d37-49f1-bd7d-4a64e00158e5",
         "concerned": "04557dc2-a80b-4b0c-b0c5-7c35ba47ec60",
-        "selfie_truck": "1e35f278-0ea9-47a6-8325-c30c050d8e92"
+        "selfie_truck": "1e35f278-0ea9-47a6-8325-c30c050d8e92",
+        "hard_hat_white_warehouse": "82edfdc4-6f61-42fc-a978-100b900b9193",
+        "hard_hat_white_portrait": "8c640af3-e2d7-4050-accc-0a9a7a437198",
+        "hard_hat_yellow_wave": "489624ea-6fa8-4d81-9cbd-e8d2fef4ec61",
+        "no_hat_warehouse": "43659388-db21-451f-a920-740de97b0628"
       },
-      "hard_hat": "Original hard-hat still (ec4bca21) was rejected. Fitted-hat variants (82edfdc4, 8c640af3, 489624ea, 43659388) were generated but not yet reviewed by the owner.",
+      "hard_hat": "Hard hats must be prompted as fitted: ear slots so the ears come through, chin strap, hat level. The first attempt (ec4bca21) was rejected; the four fitted variants above were approved on 2 October 2026.",
       "voice": {
         "name": "Benji",
         "higgsfield_preset_voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1",

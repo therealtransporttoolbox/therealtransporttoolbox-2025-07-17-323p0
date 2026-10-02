@@ -35,4 +35,6 @@ Persistent "Dramatisation - AI presenter", end card "AI presenter. Scripts writt
 - [x] Owner checked stills: cab `cfd1433f`, camera pole `a7fd8d32`, safety station `814d1ad6` passed; highway `e52d12a9` failed (truck on the wrong side). Replacement highway stills `b0702e13`, `12d6da65`, `44b5d256` all passed (shot from behind so the lane is unambiguous)
 - [x] Animated: cab `84626d03`, camera pole `a3c4df88`, safety station `5d5ed63a`, highway `c60cb3e8` (6 s each, 9:16)
 - [x] Owner picked the voice (Esa) and the render (VEED Fabric `job_b56a60bf`). Samarth, A. Shrey, Hedra Avatar and Kling versions are not used
-- [ ] Edit, then RobinReach draft
+- [x] Edit assembled with `tools/stitch_short.py` from `edit.json` (52 s, 1080x1920), sent to the owner on 2 October 2026
+- [ ] Owner approves the cut
+- [ ] RobinReach draft

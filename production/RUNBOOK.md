@@ -21,7 +21,7 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
    - Presenter B: VEED Fabric 1.0 (`veed-fabric-10`), which held sync on a 49 second take where Hedra Avatar drifted.
    - Big Red: Higgsfield `seedance_2_5` `omni_reference` with the still as `start_image` and the imported audio as `audio_references`.
 9. **B-roll.** Generate a still first, check orientation, then animate. See the orientation rules below.
-10. **Edit list.** Timeline with cutaways every 4 to 6 seconds, on-screen text added in the editor (never by the models), captions, labels, end card.
+10. **Edit list.** Timeline with cutaways every 4 to 6 seconds, on-screen text added in the editor (never by the models), captions, labels, end card. For a vertical short, write it as `drafts/<slug>/edit.json` and run `python3 tools/stitch_short.py drafts/<slug>/edit.json` (needs ffmpeg and Pillow; clips downloaded from the Hedra library first). The Albury short was built this way.
 11. **Owner review.** The owner watches and listens. The owner is the quality gate for faces, voices, mouths and orientation.
 12. **Draft, not publish.** Save to RobinReach as a draft. Scheduling follows the Sunday review.
 

@@ -1,0 +1,16 @@
+{
+  "presenter": "presenter.mp4",
+  "cuts": [["station.mp4", 1.5, 5.0], ["cab.mp4", 6.5, 9.5], ["camera.mp4", 9.8, 12.8], ["highway.mp4", 33.0, 36.5]],
+  "captions": [
+    [0.5, 14.5, "The diary said resting\nwhile the cameras saw\nthe truck driving."],
+    [15.0, 25.0, "Albury Local Court,\n7 September 2026.\nTwo counts of false\nwork diary entries.\nFine: $15,000."],
+    [25.0, 31.5, "The court called it serious.\nThe record was made on purpose\nto get around fatigue laws."],
+    [31.6, 45.0, "NHVR advice: think about\nelectronic work diaries.\nGive drivers realistic\nschedules with break times."],
+    [45.3, 48.6, "Source: NHVR court outcomes,\n7 September 2026.\nAI presenter.\nGeneral information,\nnot legal advice."]
+  ],
+  "label": "Dramatisation - AI presenter",
+  "end_card": "AI presenter.\nScripts written and checked\nby Herby Green.\n\nSource: NHVR court outcomes,\n7 September 2026\n\nGeneral information,\nnot legal advice.",
+  "end_seconds": 3.5,
+  "output": "albury-work-diary-short.mp4",
+  "_sources": "presenter = Hedra asset_b56a60bf (VEED Fabric, Esa). Cutaways = Hedra uploads asset_c5521cb0 (station), asset_0ae06455 (cab), asset_a65c421d (camera), asset_922b310c (highway)."
+}

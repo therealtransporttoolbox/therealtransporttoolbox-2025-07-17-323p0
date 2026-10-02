@@ -30,6 +30,8 @@ Persistent "Dramatisation - AI presenter", end card "AI presenter. Scripts writt
 - [x] Voice audio generated (Esa)
 - [x] Lip-sync clip submitted (Hedra job `job_fa6bfac8-d11f-4b48-a480-b99636e50768`)
 - [x] Four b-roll stills generated for orientation check: truck on highway `e52d12a9`, cab and diary `cfd1433f`, camera pole `a7fd8d32`, safety station `814d1ad6`
+- [x] Owner review of the Hedra Avatar clip: voice fine, mouth a little out of sync in parts
+- [ ] Comparison renders on the same still and audio: VEED Fabric 1.0 (`job_b56a60bf-6d81-48df-998f-fe3f8c648451`), Kling AI Avatar v2 standard (`job_e04a7f82-665f-4280-bfad-7eec70c2e240`), Kling pro (see below). Owner picks the best, or we split into shorter takes
 - [ ] Owner checks stills (truck left of road, driver on the right, no coupling, no stray vehicles), voice and mouth
 - [ ] Animate approved stills
 - [ ] Edit, then RobinReach draft

@@ -54,6 +54,7 @@ Higgsfield models default to US traffic. Every road or cab prompt must include:
 | Voice does not match the original | Higgsfield tool `elevenlabs_v4` returns 422; `text2speech_v2` ignores stability settings | Use Hedra `elevenlabs-v3` with the cloned voice |
 | Hedra rejects an audio or image link | External URLs must come from Hedra `upload_file`; links are one-hour signed URLs and easy to mistype | Upload, then use the exact URL immediately, or use a library asset ID. Uploaded files become library assets once used |
 | Mouth movement shows AI tells | Video model lip-sync is weak | Use Hedra Avatar, cut away often, keep clips short |
+| Lip-sync drifts in parts of a long take (seen on Presenter B, 49 s, Hedra Avatar) | Single long take | Compare VEED Fabric 1.0 and Kling AI Avatar v2 (pro) on the same still and audio; split the audio into 10 to 15 second takes; cover drifting sections with b-roll in the edit |
 | Truck on the wrong side of the road | Model default | Orientation rules above, still first |
 | Cartoonish character | Prompt too playful | Documentary phone-photo wording and the NOT list |
 | Higgsfield 429 | Too many jobs at once | Wait for running jobs, resubmit the rest |

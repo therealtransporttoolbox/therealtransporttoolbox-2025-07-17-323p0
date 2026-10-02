@@ -6,7 +6,7 @@ Source: NHVR court outcomes, https://www.nhvr.gov.au/law-policies/prosecutions/c
 
 Facts used, all from that entry: 15 May 2026; rigid truck towing a trailer; Twelve Mile Creek Heavy Vehicle Safety Station; two false or misleading work diary entries recording rest when road safety cameras sighted the vehicle travelling; two counts under s325(1) HVNL; conviction; fine $15,000; court called them serious examples of deliberately making a false record to get around fatigue laws. Advice paraphrased from the NHVR educational points: electronic work diaries, driver training, realistic schedules with break times and locations. The last line of the script (a schedule that cannot be driven legally will not be fixed by a diary) is TRTT's view, not the court's.
 
-Presenter: Presenter B (Manager), voice Esa (selected, awaiting owner check). Clip: Hedra Avatar, 9:16, 720p, about 49 seconds.
+Presenter: Presenter B (Manager). Voice under comparison on the same script: Esa (`asset_5ed74aad`, approved), Samarth (`asset_6bac84e0`), A. Shrey (`asset_d39db87f`). Owner picks one. Clip: Hedra Avatar, 9:16, 720p, about 49 seconds.
 
 Audio: Hedra `asset_5ed74aad-3359-475d-91ce-278c1eda1f3c`. Start frame: Hedra `asset_` of the Presenter B portrait (library `asset_958f7164-2797-421b-a091-64f2b6bb929e`).
 
@@ -34,5 +34,6 @@ Persistent "Dramatisation - AI presenter", end card "AI presenter. Scripts writt
 - [ ] Comparison renders on the same still and audio: VEED Fabric 1.0 (`job_b56a60bf-6d81-48df-998f-fe3f8c648451`), Kling AI Avatar v2 standard (`job_e04a7f82-665f-4280-bfad-7eec70c2e240`), Kling pro (see below). Owner picks the best, or we split into shorter takes
 - [x] Owner checked stills: cab `cfd1433f`, camera pole `a7fd8d32`, safety station `814d1ad6` passed; highway `e52d12a9` failed (truck on the wrong side). Replacement highway stills `b0702e13`, `12d6da65`, `44b5d256` all passed (shot from behind so the lane is unambiguous)
 - [x] Animated: cab `84626d03`, camera pole `a3c4df88`, safety station `5d5ed63a`, highway `c60cb3e8` (6 s each, 9:16)
+- [ ] Owner picks the voice: Esa, Samarth (Hedra Avatar clip `job_2ea79f3f`), or A. Shrey (Hedra Avatar clip, submitted 2 Oct)
 - [ ] Owner picks the presenter render: Hedra Avatar `job_fa6bfac8` (drifts in parts), VEED Fabric `job_b56a60bf`, Kling `job_e04a7f82`
 - [ ] Edit, then RobinReach draft

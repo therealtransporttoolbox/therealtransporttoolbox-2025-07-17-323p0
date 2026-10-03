@@ -78,7 +78,7 @@ def grade_level(sents):
     return 0.39 * wps + 11.8 * spw - 15.59
 
 
-def check(text, platform, max_grade):
+def check(text, platform, max_grade, require_disclaimer=False):
     text = normalise(text)
     low = text.lower()
     findings = []
@@ -127,7 +127,7 @@ def check(text, platform, max_grade):
         if g > max_grade:
             findings.append(("WARN", f"reading grade about {g:.1f} (target Year 7 to 8, limit {max_grade})"))
 
-    if (platform not in ("x", "twitter") and DISCLAIMER_TRIGGER.search(text)
+    if (require_disclaimer and platform not in ("x", "twitter") and DISCLAIMER_TRIGGER.search(text)
             and "not legal advice" not in low):
         findings.append(("WARN", "regulatory content without the 'General information, not legal advice' line"))
 
@@ -139,6 +139,8 @@ def main():
     ap.add_argument("path", help="file with drafts, or - for stdin")
     ap.add_argument("--platform", default="linkedin", choices=sorted(LIMITS))
     ap.add_argument("--max-grade", type=float, default=9.0)
+    ap.add_argument("--require-disclaimer", action="store_true",
+                    help="warn when regulatory text lacks the 'not legal advice' line (off by default: the owner dropped it from narration on 3 October 2026)")
     args = ap.parse_args()
 
     raw = sys.stdin.read() if args.path == "-" else open(args.path, encoding="utf-8").read()
@@ -146,7 +148,7 @@ def main():
 
     errors = 0
     for i, draft in enumerate(drafts, 1):
-        findings = check(draft, args.platform, args.max_grade)
+        findings = check(draft, args.platform, args.max_grade, args.require_disclaimer)
         print(f"Draft {i}: {len(word_list(draft))} words, {len(draft)} characters")
         if not findings:
             print("  OK")

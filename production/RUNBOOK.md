@@ -11,7 +11,7 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
 
 1. **Pick the story.** Start from a primary source: the NHVR court outcomes page, an NHVR notice, an ATSB report. Record the URL and the date checked. Facts on screen come only from the source.
 2. **Scaffold.** `python3 tools/new_episode.py <slug> --title "..." --source "<url>" --characters presenter_a,big_red`. This creates `drafts/<slug>/` with script, shot list, captions and checklist files.
-3. **Write the script.** Year 7 reading level. No em-dashes, no exclamation marks in scripts, no lists of exactly three, no formula openers. Add "General information, not legal advice." for regulatory content.
+3. **Write the script.** Year 7 reading level. No em-dashes, no exclamation marks in scripts, no lists of exactly three, no formula openers. Do not put "General information, not legal advice" in the narration (owner decision); it belongs in the caption or description if used at all.
 4. **Lint.** `python3 tools/voice_lint.py drafts/<slug>/script.txt --platform tiktok` (or the target platform). Fix every ERROR. Decide each WARN.
 5. **Fact check.** Tick each figure and section number against the source. Note the source line and the "last verified" date.
 6. **Voice audio.** Hedra `generate_speech`, model `elevenlabs-v3`, with the character's approved voice. Big Red is the exception: Higgsfield `text2speech_v2` (variant `elevenlabs`) with the Benji preset.
@@ -25,11 +25,15 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
 11. **Owner review.** The owner watches and listens. The owner is the quality gate for faces, voices, mouths and orientation.
 12. **Draft, not publish.** Save to RobinReach as a draft. Scheduling follows the Sunday review.
 
-## Labels (mandatory)
+## Labels
 
-- Persistent on-screen line: "Dramatisation - AI presenter" (presenters) or "Fiction. AI characters." (characters).
-- End card for presenters: "AI presenter. Scripts written and checked by Herby Green." plus the source line.
-- Switch on each platform's AI-generated content label.
+Owner decision, 3 October 2026: no on-screen "AI presenter" banner, no end card, and no spoken "General information, not legal advice" line in narration. None is a legal requirement.
+
+What still applies:
+- Switch on each platform's AI-generated or altered content toggle at upload (TikTok, YouTube, Instagram, Facebook). That is the platform's own disclosure mechanism and it protects reach.
+- Put the source line (NHVR court outcomes, date) in the post caption or description. A short on-screen source caption at the end of the clip is fine.
+- The disclaimer can go in the caption or description if wanted; it stays out of the narration.
+- Characters (Big Red, Barry) remain plainly fictional in how they are written; a "Fiction" caption is optional.
 
 ## Australian orientation (trucks and cabs)
 
@@ -71,7 +75,7 @@ Higgsfield models default to US traffic. Every road or cab prompt must include:
 - [ ] Voice is the approved one for each character.
 - [ ] Trucks left of road, driver on the right, no coupling detail, no stray vehicles.
 - [ ] Characters look like their approved stills; nothing frightening.
-- [ ] Labels and end card present.
+- [ ] Platform AI toggle noted for upload; source line in the caption.
 - [ ] Nothing published; draft only.
 
 ## Cost habits

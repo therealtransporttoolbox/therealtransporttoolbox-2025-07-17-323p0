@@ -9,8 +9,8 @@ edit.json:
   "presenter": "presenter.mp4",            # base clip with the voice track
   "cuts": [["station.mp4", 1.5, 5.0], ...],  # file, start, end (seconds on the timeline)
   "captions": [[0.5, 14.5, "Line one\\nLine two"], ...],
-  "label": "Dramatisation - AI presenter",
-  "end_card": "AI presenter.\\nScripts written and checked\\nby Herby Green.",
+  "label": null,                          # optional on-screen line; null for none
+  "end_card": null,                       # optional closing card; null for none
   "end_seconds": 3.5,
   "output": "short.mp4"
 }
@@ -59,7 +59,9 @@ def main():
     out = spec.get("output", "short.mp4")
     with tempfile.TemporaryDirectory() as tmp:
         p = lambda n: os.path.join(tmp, n)
-        card(p("label.png"), spec.get("label", "Dramatisation - AI presenter"), 34, lambda th: 90)
+        label = spec.get("label")
+        if label:
+            card(p("label.png"), label, 34, lambda th: 90)
         caps = spec.get("captions", [])
         for i, (a, b, text) in enumerate(caps, 1):
             card(p(f"c{i}.png"), text, 50, lambda th: H - th - 300)
@@ -69,7 +71,8 @@ def main():
         for f, a, b in cuts:
             cmd += ["-itsoffset", str(a), "-i", f]
         n = 1 + len(cuts)
-        cmd += ["-i", p("label.png")]
+        if label:
+            cmd += ["-i", p("label.png")]
         for i in range(1, len(caps) + 1):
             cmd += ["-i", p(f"c{i}.png")]
 
@@ -79,12 +82,15 @@ def main():
             fc += (f"[{i}:v]scale=1080:1920,setsar=1,fps=25[b{i}];"
                    f"[{prev}][b{i}]overlay=eof_action=pass:enable='between(t,{a},{b})'[v{i}];")
             prev = f"v{i}"
-        fc += f"[{prev}][{n}:v]overlay=0:0[l0];"
-        prev = "l0"
+        cap_base = n
+        if label:
+            fc += f"[{prev}][{n}:v]overlay=0:0[l0];"
+            prev = "l0"
+            cap_base = n + 1
         for i, (a, b, _) in enumerate(caps, 1):
-            fc += f"[{prev}][{n + i}:v]overlay=0:0:enable='between(t,{a},{b})'[l{i}];"
+            fc += f"[{prev}][{cap_base + i - 1}:v]overlay=0:0:enable='between(t,{a},{b})'[l{i}];"
             prev = f"l{i}"
-        fc = fc.rstrip(";").replace(f"[{prev}]", "[vout]", 1) if False else fc.rstrip(";")
+        fc = fc.rstrip(";")
         fc = fc[: fc.rfind(f"[{prev}]")] + "[vout]"
         cmd += ["-filter_complex", fc, "-map", "[vout]", "-map", "0:a",
                 "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",

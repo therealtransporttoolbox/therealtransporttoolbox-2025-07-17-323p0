@@ -1,0 +1,31 @@
+It is 9:15 on a Tuesday night. A driver's phone lights up. The text says: need you on the 3 am Adelaide. Confirm.
+
+He finished at 6:30. A 3 am start gives him 8 and a half hours of rest. On paper that is legal. Nobody has done the rest of the sum.
+
+That text is where most of the fatigue breaches in this industry start. This video is about the person who sends it.
+
+Under the Heavy Vehicle National Law, a scheduler is anyone who schedules the transport of goods, or the work and rest times of a driver. Two limbs. The person who writes the roster is one. The despatch desk that says pickup at 4 pm is the other. The receptionist who books three trucks a week is a scheduler for those three trucks. Section 26A says your duty depends on what you actually do, not your job title.
+
+Here is the part that gets people. A scheduler is a party in the chain of responsibility in their own right. Section 26E says a person must not ask, direct or require a driver to do something that would make the driver speed, drive tired, or break the work and rest hours. The test is what you knew, or ought to have known. Maximum penalty, $20,000, and it applies to the individual.
+
+In December 2022 the New South Wales Supreme Court fined a transport company $180,000. It also fined the managing director $15,000, and the scheduler $15,000. The scheduler was prosecuted as a person, not as the company. The regulator said schedulers have their own duty under the law.
+
+So what does a lawful schedule look like? It starts with a sum, and the sum is longer than most people think.
+
+Work means more than driving. Section 221 counts loading, unloading, checking the load, refuelling, the pre-start and filling in the diary. And it counts sitting in the driver's seat with the engine running. Two hours creeping forward in a dock queue is two hours of work.
+
+A solo driver on standard hours can work 12 hours in 24 and must take 7 continuous hours of rest. Over 14 days the cap is 144 hours. A driver can be inside 12 hours today and outside 144 this fortnight. If your planner cannot show the 14 day total, you cannot roster lawfully.
+
+Here is the sum we recommend. Distance divided by 75. Add 30 minutes for the pre-start. Add loading and unloading. Add the queue you have measured at that site. Add two 20 minute breaks. Add a 10 percent buffer. If the answer is over 11 hours, the plan needs a rest inside it, a second driver, or a different day. Not a faster drive.
+
+Run that sum on the 3 am Adelaide. 730 kilometres is 9 hours 45 minutes on the road. Add the pre-start, the unload and the breaks and it is about 11 and a half hours of work. It fits in a day. Now add Tuesday. He worked 11 hours. He is at 118 for the fortnight. Adding 11 and a half takes him to 129 and a half. Still inside. But he has slept badly for two nights. And the whole drive sits between midnight and 6 am, the hours the regulator rates as highest risk.
+
+The lawful answer from the driver is: hours fit, fitness not confirmed, have a backup. The lawful answer from the scheduler is to have done that sum before sending the text, and to have the backup ready.
+
+Which brings us to the rule we recommend for every operator. No schedule change after 6 pm for an earlier start the next day. The one exception is when the person who owns scheduling has checked that the 7 hour rest still fits, and written it down. Every change goes in a log. What moved, who checked, why. Keep the text message. Rosters and trip schedules are statutory records, kept for 3 years.
+
+One more line from the law. Encourage includes give an incentive. An on-time bonus is encouragement. A late deduction is encouragement. A KPI that only a tired driver can hit is encouragement. If you have one, test it against the hours table.
+
+So here is the question for your operation this week. Which run do you do every week that you already know does not fit? Put it in the planner today, before someone else finds it.
+
+The sections quoted are in the description, with the NHVR links. The full scheduling playbook is on the TRTT site.

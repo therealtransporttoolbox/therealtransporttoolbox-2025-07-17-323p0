@@ -1,0 +1,146 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "gap": 0.4,
+  "takes": [
+    "take1.mp4",
+    "take2.mp4",
+    "take3.mp4",
+    "take4.mp4",
+    "take5.mp4"
+  ],
+  "cuts": [
+    [
+      "phone.mp4",
+      0.0,
+      6.0
+    ],
+    [
+      "despatch.mp4",
+      21.0,
+      27.0
+    ],
+    [
+      "graphic-who-is-a-scheduler.png",
+      33.0,
+      56.0
+    ],
+    [
+      "despatch.mp4",
+      63.5,
+      69.5
+    ],
+    [
+      "graphic-2022-case.png",
+      94.5,
+      110.0
+    ],
+    [
+      "queue.mp4",
+      131.0,
+      137.0
+    ],
+    [
+      "graphic-standard-hours.png",
+      142.5,
+      160.0
+    ],
+    [
+      "graphic-the-sum.png",
+      164.0,
+      186.0
+    ],
+    [
+      "highway-night.mp4",
+      190.0,
+      196.0
+    ],
+    [
+      "diary.mp4",
+      208.5,
+      214.5
+    ],
+    [
+      "rest-area.mp4",
+      221.0,
+      227.0
+    ],
+    [
+      "graphic-6pm-rule.png",
+      249.5,
+      279.0
+    ],
+    [
+      "planner.mp4",
+      299.0,
+      305.0
+    ]
+  ],
+  "captions": [
+    [
+      1.0,
+      8.0,
+      "9:15 pm, Tuesday. 'Need you on the 3 am Adelaide. Confirm.'"
+    ],
+    [
+      9.5,
+      19.0,
+      "Finished 6:30 pm. 3 am start. 8.5 hours rest. Legal on paper."
+    ],
+    [
+      72.5,
+      92.0,
+      "HVNL s 26E: a prohibited request. Maximum penalty $20,000, for the individual"
+    ],
+    [
+      124.0,
+      141.0,
+      "HVNL s 221: loading, unloading, pre-start, the diary, engine running in a queue. All work."
+    ],
+    [
+      190.5,
+      207.0,
+      "730 km at 75 km/h: 9 h 45 min driving. With pre-start, unload and breaks: about 11.5 h work"
+    ],
+    [
+      208.5,
+      220.0,
+      "Tuesday: 11 h worked. 118 h in the fortnight. Adelaide run takes it to 129.5 h"
+    ],
+    [
+      221.0,
+      231.0,
+      "Two bad nights' sleep. Whole drive between midnight and 6 am"
+    ],
+    [
+      232.5,
+      248.0,
+      "Driver: 'Hours fit. Fitness not confirmed. Have a backup.'"
+    ],
+    [
+      282.0,
+      297.0,
+      "HVNL s 5: 'encourage includes give an incentive'"
+    ],
+    [
+      298.5,
+      311.0,
+      "Which run do you do every week that you already know does not fit?"
+    ],
+    [
+      312.0,
+      319.5,
+      "Sources: HVNL (Qld) s 5, 26A, 26E, 221, 319, 325, 341. NHVR media release, 13 December 2022. TRTT Playbook 02"
+    ]
+  ],
+  "titles": [],
+  "output": "scheduling-text-at-9pm.mp4",
+  "_sources": {
+    "presenter": "Presenter B (Esa). Voice Hedra elevenlabs-v3 voice_420628a3: take1 asset_7840e3b6 29.2 s, take2 asset_06d61642 84.8 s, take3 asset_1fff8d36 74.3 s, take4 asset_0d6794fe 91.9 s, take5 asset_0918a0a3 38.1 s. Lip-sync: VEED Fabric 1.0 from portrait asset_958f7164, 3:4 720p, fitted over blurred fill in the 16:9 master (owner decision 3 October 2026). Owner said render, 3 October 2026. VEED jobs: take1 job_d4c06ece, take2 job_a17b55e6, take3 job_e24a13f5, take4 job_f06c9cb4, take5 job_cc554c0b",
+    "broll_stills_16x9": "Higgsfield nano_banana_pro 16:9, 3 October 2026, awaiting owner orientation check before animating: phone 3e098e3c, despatch bc38a810, queue 0256e683, diary 35058ddd, highway-night f2ea4daf, planner 511ed1ca, rest-area 6dafa606",
+    "graphics": "Pillow, 1920x1080: who-is-a-scheduler, 2022-case, standard-hours, the-sum, 6pm-rule",
+    "timing_note": "Times estimated from word position in each take's audio; nudge after the first render",
+    "broll_clips_16x9": "seedance_2_5 16:9 1080p 6 s, submitted 3 October 2026: phone f6940f1a, despatch e07470e8, queue 7ecacef3, diary dd61e438, highway-night cf690703, planner 9ca9cd85, rest-area 6dafa606->466b9b44. Owner uploads the finished clips to the Hedra library with these file names."
+  }
+}

@@ -38,4 +38,5 @@ Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken di
 - [x] First cut (52 s, with banner and end card) sent 2 October; owner asked for banner, end card and spoken disclaimer removed
 - [x] Second cut (45 s, 1080x1920) from the re-voiced VEED render, no banner, no end card, sent to the owner on 3 October 2026
 - [x] Owner approved the v2 cut, 3 October 2026
-- [ ] RobinReach draft (blocked from the cloud session: network policy denies robinreach.com uploads; 13 MB 1080p web master sent to the owner)
+- [x] RobinReach draft created 3 October 2026, post 1056383, TikTok + Instagram Reels + YouTube Shorts, media `albury-work-diary-short-v2-1080p-web.mp4` (owner uploaded to the library by hand because the cloud network policy blocks robinreach.com). Switch the AI-content toggle on at publish.
+- [ ] Owner schedules it in the Sunday review

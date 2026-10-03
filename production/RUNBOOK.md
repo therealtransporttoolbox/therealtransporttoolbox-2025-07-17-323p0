@@ -4,7 +4,7 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
 
 ## Roles
 
-- **Trust lane:** real Herby, real documents, real case reviews. Presenter A and Presenter B may front explainers. Never used for testimonials or scenes presented as real.
+- **Trust lane:** real Herby, real documents, real case reviews. Presenter A and Presenter B may front explainers. From 3 October 2026 the owner's default presenter for new episodes is Presenter B (Esa). Never used for testimonials or scenes presented as real.
 - **Reach lane:** Big Red and Bigfoot Barry. Fiction, friendly, harmless. Each clip teaches one correct legal point tied to a real, sourced case and links to the trust lane.
 
 ## The flow (one episode)
@@ -18,7 +18,7 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
 7. **Start frame.** Use an approved still from `characters.json`. For a new scene, generate it with the character's Element and check it (below) before animating.
 8. **Lip-sync.**
    - Presenter A and Barry: Hedra Avatar (`hedra-avatar`, settings in `characters.json`).
-   - Presenter B: VEED Fabric 1.0 (`veed-fabric-10`), which held sync on a 49 second take where Hedra Avatar drifted.
+   - Presenter B: VEED Fabric 1.0 (`veed-fabric-10`), which held sync on a 49 second take where Hedra Avatar drifted. Owner decision 3 October 2026: VEED stays the Esa render model until the Hedra credit pack runs down.
    - Big Red: Higgsfield `seedance_2_5` `omni_reference` with the still as `start_image` and the imported audio as `audio_references`.
 9. **B-roll.** Generate a still first, check orientation, then animate. See the orientation rules below.
 10. **Edit list.** Timeline with cutaways every 4 to 6 seconds, on-screen text added in the editor (never by the models), captions, labels, end card. For a vertical short, write it as `drafts/<slug>/edit.json` and run `python3 tools/stitch_short.py drafts/<slug>/edit.json`; for a 16:9 long-form with several presenter takes, image graphics and lower thirds, use `python3 tools/stitch_video.py drafts/<slug>/edit.json` (format in the file header) (needs ffmpeg and Pillow; clips downloaded from the Hedra library first). The Albury short was built this way.

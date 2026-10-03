@@ -41,5 +41,5 @@ Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken di
 - [x] B-roll regenerated at 16:9 in Higgsfield, 3 October 2026 (job IDs in `edit.json` under `_sources.broll_16x9`); inspection still redone so the driver's door sits on the right-hand side. Owner uploaded the seven clips to the Hedra library (assets 396f48cf highway, 5fd80a3c steer, 2b316d25 weighbridge, 7d9b2d3f forklift, 403f4e37 prestart, 17d8475a bdouble, 2bffcec6 inspection)
 - [x] Second cut assembled with the 16:9 clips, 3 min 23 s, cutaways fill the frame; 720p review and 1080p web master sent to the owner 3 October 2026
 - [x] RobinReach draft created 3 October 2026, post 1056612, YouTube only, unlisted, playlist Chain of Responsibility, labels AI presenter / Trust lane / Gosford steer axle / Long-form. Nothing scheduled. Switch the altered-content disclosure on at publish
-- [ ] Owner remark 3 October: prefers Esa (Presenter B) as the presenter for this one. Decision pending on re-voicing and re-rendering with Esa (Hedra Avatar about 1,400 credits, VEED about 5,600) and swapping the media on the draft
+- [x] Owner decision 3 October: keep Marty on this episode; Esa fronts episodes from the next one, rendered on VEED
 - [ ] 9:16 Shorts cut from the same takes

@@ -60,7 +60,7 @@
       }
     },
     "presenter_b": {
-      "role": "On-site manager persona (bearded, navy shirt, hi-vis vest)",
+      "role": "On-site manager persona (bearded, navy shirt, hi-vis vest) Owner preference 3 October 2026: Esa fronts trust-lane episodes from the next one onward; Presenter A remains available.",
       "element_id": "c638faf5-9994-46f4-9a79-8749f2efb474",
       "soul_id": "d5096ab1-6f02-4b00-9aec-3f4b5d2bd730",
       "soul_note": "Training was queued on 30 Sep; not yet confirmed ready.",
@@ -83,7 +83,7 @@
         "tool": "veed-fabric-10",
         "aspect_ratio": "3:4",
         "resolution": "720p",
-        "status": "approved (owner: works best on the 49 s Albury take; Hedra Avatar drifted in parts)",
+        "status": "approved. Owner decision 3 October 2026: VEED Fabric 1.0 is the render model for Esa until the credit pack is used up; then revisit Hedra Avatar.",
         "note": "VEED costs about four times Hedra Avatar. Keep it for Presenter B; Presenter A and Barry stay on Hedra Avatar."
       },
       "voice_history": "Samarth and A. Shrey were tested on the Albury script on 2 October 2026 and not chosen."

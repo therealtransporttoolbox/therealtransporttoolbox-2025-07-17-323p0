@@ -23,17 +23,21 @@ Presenter: Presenter A, voice Marty V3 (cloned, Hedra `voice_6717b15d`), lip-syn
 | The five points 2:30 | "Let's look at what the regulator says..." | Presenter with numbered cards 1 to 5 appearing as spoken; cutaways: weigh pad (`6764c110`), pre-start walk-around (`04689b08` or `8b241abe`), depot paperwork clip | 1 Mass limits, told to loaders and drivers. 2 A way to weigh. 3 Training. 4 Pre-start checklist. 5 Load distribution plan. |
 | No-blame question 3:35 | "Here is the no-blame question..." | Presenter only, no cutaway | Who notices before the truck reaches the motorway? |
 | The fine 3:55 | "One last point on the fine..." | Presenter | $21,000 of a possible $108,000 |
-| Close 4:15 | "The full case entry..." | Presenter; end card | Source: NHVR court outcomes, 22 September 2026. AI presenter. Scripts written and checked by Herby Green. General information, not legal advice. |
+| Close 3:17 | "The full case entry..." | Presenter | Source: NHVR court outcomes, 22 September 2026 |
 
 ## Labels
 
-Persistent "Dramatisation - AI presenter". YouTube's altered-or-synthetic content disclosure switched on. End card as above. Description carries the NHVR link and the disclaimer.
+Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken disclaimer. YouTube's altered-or-synthetic content disclosure switched on at upload. Description carries the NHVR link and, if wanted, the disclaimer. The last caption is the source line.
 
 ## Status
 
 - [x] Script written and passes `voice_lint`
-- [ ] Owner approves the script (before any 4-minute render is paid for)
-- [ ] Marty V3 audio generated as three or four takes
-- [ ] Hedra Avatar renders per take
-- [ ] Two editor graphics: the breach bands, and the tray side view
-- [ ] Edit, then YouTube upload as unlisted for review
+- [x] Owner approved the render, 3 October 2026
+- [x] Marty V3 audio as four takes (Hedra elevenlabs-v3): 35.7 s, 57.7 s, 65.1 s, 42.2 s. Takes in `takes/`
+- [x] Hedra Avatar renders per take, 3:4 720p (Hedra Avatar ignores a 16:9 request and keeps the portrait's shape): take1 `job_7c423342`, take2 `job_1e8f1f07`, take3 `job_07adf6d6`, take4 `job_89bf93c2`. About 1,400 credits
+- [x] Two editor graphics built with Pillow: `graphic-breach-bands.png`, `graphic-tray-side.png`
+- [x] First cut assembled with `tools/stitch_video.py edit.json`: 3 min 23 s, 1920x1080. Presenter and the 9:16 b-roll are fitted over a blurred fill; 720p review copy sent to the owner 3 October 2026
+- [ ] Owner reviews the first cut (timing of captions and cutaways is estimated from word position and may need nudging)
+- [ ] Optional upgrade: regenerate b-roll at 16:9 (or Higgsfield reframe) so the cutaways fill the frame
+- [ ] YouTube upload as unlisted for review, then RobinReach draft with description (NHVR link, source line)
+- [ ] 9:16 Shorts cut from the same takes

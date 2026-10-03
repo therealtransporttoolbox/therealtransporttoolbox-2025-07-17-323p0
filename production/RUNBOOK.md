@@ -21,7 +21,7 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
    - Presenter B: VEED Fabric 1.0 (`veed-fabric-10`), which held sync on a 49 second take where Hedra Avatar drifted.
    - Big Red: Higgsfield `seedance_2_5` `omni_reference` with the still as `start_image` and the imported audio as `audio_references`.
 9. **B-roll.** Generate a still first, check orientation, then animate. See the orientation rules below.
-10. **Edit list.** Timeline with cutaways every 4 to 6 seconds, on-screen text added in the editor (never by the models), captions, labels, end card. For a vertical short, write it as `drafts/<slug>/edit.json` and run `python3 tools/stitch_short.py drafts/<slug>/edit.json` (needs ffmpeg and Pillow; clips downloaded from the Hedra library first). The Albury short was built this way.
+10. **Edit list.** Timeline with cutaways every 4 to 6 seconds, on-screen text added in the editor (never by the models), captions, labels, end card. For a vertical short, write it as `drafts/<slug>/edit.json` and run `python3 tools/stitch_short.py drafts/<slug>/edit.json`; for a 16:9 long-form with several presenter takes, image graphics and lower thirds, use `python3 tools/stitch_video.py drafts/<slug>/edit.json` (format in the file header) (needs ffmpeg and Pillow; clips downloaded from the Hedra library first). The Albury short was built this way.
 11. **Owner review.** The owner watches and listens. The owner is the quality gate for faces, voices, mouths and orientation.
 12. **Draft, not publish.** Save to RobinReach as a draft. Scheduling follows the Sunday review.
 
@@ -84,6 +84,8 @@ Higgsfield models default to US traffic. Every road or cab prompt must include:
 | Higgsfield "IN THE DARK" preset recommendation | Preset suggestion | Resubmit with `declined_preset_id` from `characters.json` |
 | Hedra `generate_video` rejects a pasted signed URL or fails on a start frame | Long signed URLs are easy to corrupt when copied by hand; upload links expire after an hour | Pass Hedra library asset IDs (`asset_...`) where possible. If a start frame is missing from the library, ask the owner to drop the still into the Hedra library in the browser, then look it up with `query_assets` and use its short ID |
 | Cloud session cannot upload to RobinReach or fetch Higgsfield audio | Environment network policy denies robinreach.com and the Higgsfield cloudfront download host | Add those hosts under Allowed domains in the cloud environment settings, or upload the sent master by hand |
+| Hedra Avatar output is 3:4 although 16:9 was requested | Hedra Avatar follows the start frame's shape | For 16:9 masters, fit the 3:4 presenter over a blurred fill (`tools/stitch_video.py` does this) or make a 16:9 start frame first |
+| B-roll is the wrong shape for the master | Clips were generated 9:16 for shorts | Generate b-roll at the master's aspect ratio; otherwise the stitch tool fits it over a blurred fill, or use Higgsfield `reframe` |
 | Higgsfield tool rejects job lists | Schema expects `[{index, job_id}]` | Use that shape |
 
 ## Consistency checks before owner review

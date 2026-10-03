@@ -38,6 +38,7 @@ Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken di
 - [x] Two editor graphics built with Pillow: `graphic-breach-bands.png`, `graphic-tray-side.png`
 - [x] First cut assembled with `tools/stitch_video.py edit.json`: 3 min 23 s, 1920x1080. Presenter and the 9:16 b-roll are fitted over a blurred fill; 720p review copy sent to the owner 3 October 2026
 - [ ] Owner reviews the first cut (timing of captions and cutaways is estimated from word position and may need nudging)
-- [ ] Optional upgrade: regenerate b-roll at 16:9 (or Higgsfield reframe) so the cutaways fill the frame
-- [ ] YouTube upload as unlisted for review, then RobinReach draft with description (NHVR link, source line)
+- [x] B-roll regenerated at 16:9 in Higgsfield, 3 October 2026 (job IDs in `edit.json` under `_sources.broll_16x9`); inspection still redone so the driver's door sits on the right-hand side. Owner uploaded the seven clips to the Hedra library (assets 396f48cf highway, 5fd80a3c steer, 2b316d25 weighbridge, 7d9b2d3f forklift, 403f4e37 prestart, 17d8475a bdouble, 2bffcec6 inspection)
+- [x] Second cut assembled with the 16:9 clips, 3 min 23 s, cutaways fill the frame; 720p review and 1080p web master sent to the owner 3 October 2026
+- [ ] Owner uploads the 1080p web master to the RobinReach library; then RobinReach draft for YouTube (unlisted, altered-content disclosure on) from `youtube-description.txt`
 - [ ] 9:16 Shorts cut from the same takes

@@ -42,6 +42,10 @@ Premiere Pro, After Effects and the AEJuice plug-ins run on the owner's computer
 - Cloud session: script, lint, voice, avatar, b-roll, `edit.json`, a stitched review cut, RobinReach draft.
 - Owner's machine: open the same clips in Premiere, add AEJuice lower thirds, captions and transitions from `drafts/<slug>/edit.json`, export the master. The edit list is the handover document.
 
+## Moving clips between tools (the owner's preferred flow)
+
+Clips generated in Higgsfield are downloaded by the owner and uploaded into the Hedra library in the browser. The session then reads them from the library by asset ID (`query_assets`), assembles the cut, and sends the owner a 1080p web master. The owner uploads that master into the RobinReach library (Library, Uploads), and the session builds the draft post from there. Two hand uploads per episode, no other setup.
+
 ## Labels
 
 Owner decision, 3 October 2026: no on-screen "AI presenter" banner, no end card, and no spoken "General information, not legal advice" line in narration. None is a legal requirement.

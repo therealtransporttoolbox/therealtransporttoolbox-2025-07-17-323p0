@@ -37,4 +37,4 @@ Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken di
 - [x] Owner picked the voice (Esa) and the render (VEED Fabric `job_b56a60bf`). Samarth, A. Shrey, Hedra Avatar and Kling versions are not used
 - [x] First cut (52 s, with banner and end card) sent 2 October; owner asked for banner, end card and spoken disclaimer removed
 - [x] Second cut (45 s, 1080x1920) from the re-voiced VEED render, no banner, no end card, sent to the owner on 3 October 2026
-- [ ] RobinReach draft
+- [ ] RobinReach draft (blocked from the cloud session: network policy denies robinreach.com uploads; 13 MB 1080p web master sent to the owner)

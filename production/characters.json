@@ -76,7 +76,7 @@
         "model": "elevenlabs-v3",
         "status": "approved (owner, 2 October 2026, after comparing Samarth and A. Shrey)",
         "higgsfield_voice_element_id": "52b27fcf-0e0e-4405-b1f5-bba90dd739f0",
-        "higgsfield_status": "Esa cloned into Higgsfield (ElevenLabs v4 cloned voices) by the owner, 3 October 2026. Test lines rendered on text2speech_v2 (elevenlabs) job f89a59e9 and elevenlabs_v4 job 5c0f407d; owner to confirm it matches the Hedra Esa before it replaces the Hedra path."
+        "higgsfield_status": "approved (owner, 3 October 2026): Esa element on Higgsfield matches the Hedra Esa. Use elevenlabs_v4 with the element for Higgsfield-only episodes; Hedra elevenlabs-v3 clone stays valid for Hedra renders."
       },
       "hedra_portrait_asset_id": "asset_958f7164-2797-421b-a091-64f2b6bb929e",
       "lip_sync": {

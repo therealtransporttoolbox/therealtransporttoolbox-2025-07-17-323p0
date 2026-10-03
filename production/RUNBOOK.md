@@ -83,6 +83,7 @@ Higgsfield models default to US traffic. Every road or cab prompt must include:
 | Higgsfield 429 | Too many jobs at once | Wait for running jobs, resubmit the rest |
 | Higgsfield "IN THE DARK" preset recommendation | Preset suggestion | Resubmit with `declined_preset_id` from `characters.json` |
 | Hedra `generate_video` rejects a pasted signed URL or fails on a start frame | Long signed URLs are easy to corrupt when copied by hand; upload links expire after an hour | Pass Hedra library asset IDs (`asset_...`) where possible. If a start frame is missing from the library, ask the owner to drop the still into the Hedra library in the browser, then look it up with `query_assets` and use its short ID |
+| Cloud session cannot upload to RobinReach or fetch Higgsfield audio | Environment network policy denies robinreach.com and the Higgsfield cloudfront download host | Add those hosts under Allowed domains in the cloud environment settings, or upload the sent master by hand |
 | Higgsfield tool rejects job lists | Schema expects `[{index, job_id}]` | Use that shape |
 
 ## Consistency checks before owner review

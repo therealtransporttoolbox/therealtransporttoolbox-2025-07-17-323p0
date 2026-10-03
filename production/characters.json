@@ -8,6 +8,18 @@
     "still_settings": {
       "aspect_ratio": "9:16",
       "resolution": "2k"
+    },
+    "speech_models": {
+      "primary": "elevenlabs_v4 (dialogue array, voice_type element, stability and similarity_boost optional)",
+      "fallback": "text2speech_v2 variant elevenlabs",
+      "note": "Both accept element voices. elevenlabs_v4 returned 422 on 1 October with a preset voice and succeeded on 3 October with the Esa element, so retry on text2speech_v2 if it fails."
+    },
+    "video_clip_limits": {
+      "seedance_2_5": "4 to 30 s",
+      "wan2_7": "2 to 15 s, audio_references supported",
+      "grok_video_v15": "2 to 15 s",
+      "flux_3_video": "5 to 20 s",
+      "note": "No Higgsfield video model takes a 45 s take in one go. A Higgsfield-only presenter needs the audio split into 10 to 15 s takes with cutaways at the joins. Hedra (VEED, Hedra Avatar) still renders a full take."
     }
   },
   "hedra": {
@@ -36,7 +48,9 @@
         "name": "Marty V3",
         "hedra_voice_id": "voice_6717b15d-2c37-4524-aa0d-11fddf818334",
         "model": "elevenlabs-v3",
-        "status": "approved (spot on)"
+        "status": "approved (spot on)",
+        "higgsfield_voice_element_id": "add93d90-6bf2-43c8-b7a2-85ec9485efe2",
+        "higgsfield_status": "Marty-V3 element exists in Higgsfield; not yet tested there. Hedra elevenlabs-v3 clone remains the approved path."
       },
       "lip_sync": {
         "tool": "hedra-avatar",
@@ -60,7 +74,9 @@
         "name": "Esa",
         "hedra_voice_id": "voice_420628a3-8238-44db-bdff-0eab4e142ead",
         "model": "elevenlabs-v3",
-        "status": "approved (owner, 2 October 2026, after comparing Samarth and A. Shrey)"
+        "status": "approved (owner, 2 October 2026, after comparing Samarth and A. Shrey)",
+        "higgsfield_voice_element_id": "52b27fcf-0e0e-4405-b1f5-bba90dd739f0",
+        "higgsfield_status": "Esa cloned into Higgsfield (ElevenLabs v4 cloned voices) by the owner, 3 October 2026. Test lines rendered on text2speech_v2 (elevenlabs) job f89a59e9 and elevenlabs_v4 job 5c0f407d; owner to confirm it matches the Hedra Esa before it replaces the Hedra path."
       },
       "hedra_portrait_asset_id": "asset_958f7164-2797-421b-a091-64f2b6bb929e",
       "lip_sync": {

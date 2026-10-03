@@ -14,7 +14,7 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
 3. **Write the script.** Year 7 reading level. No em-dashes, no exclamation marks in scripts, no lists of exactly three, no formula openers. Do not put "General information, not legal advice" in the narration (owner decision); it belongs in the caption or description if used at all.
 4. **Lint.** `python3 tools/voice_lint.py drafts/<slug>/script.txt --platform tiktok` (or the target platform). Fix every ERROR. Decide each WARN.
 5. **Fact check.** Tick each figure and section number against the source. Note the source line and the "last verified" date.
-6. **Voice audio.** Hedra `generate_speech`, model `elevenlabs-v3`, with the character's approved voice. Big Red is the exception: Higgsfield `text2speech_v2` (variant `elevenlabs`) with the Benji preset.
+6. **Voice audio.** Hedra `generate_speech`, model `elevenlabs-v3`, with the character's approved voice. Big Red is the exception: Higgsfield `text2speech_v2` (variant `elevenlabs`) with the Benji preset. Esa and Marty-V3 also exist as Higgsfield voice Elements (IDs in `characters.json`) for the Higgsfield-only path below.
 7. **Start frame.** Use an approved still from `characters.json`. For a new scene, generate it with the character's Element and check it (below) before animating.
 8. **Lip-sync.**
    - Presenter A and Barry: Hedra Avatar (`hedra-avatar`, settings in `characters.json`).
@@ -24,6 +24,23 @@ The repeatable flow for scripted video with AI presenters and characters. Approv
 10. **Edit list.** Timeline with cutaways every 4 to 6 seconds, on-screen text added in the editor (never by the models), captions, labels, end card. For a vertical short, write it as `drafts/<slug>/edit.json` and run `python3 tools/stitch_short.py drafts/<slug>/edit.json` (needs ffmpeg and Pillow; clips downloaded from the Hedra library first). The Albury short was built this way.
 11. **Owner review.** The owner watches and listens. The owner is the quality gate for faces, voices, mouths and orientation.
 12. **Draft, not publish.** Save to RobinReach as a draft. Scheduling follows the Sunday review.
+
+## Higgsfield-only path (script, voice, avatar, b-roll in one tool)
+
+The owner cloned Esa into Higgsfield on 3 October 2026 so a whole episode can run there. What changes and what does not:
+
+- Voice: `elevenlabs_v4` with `dialogue: [{text, voice_type: "element", voice_id}]`, or `text2speech_v2` variant `elevenlabs`. Both cost about 0.3 credits for a ten second line.
+- Audio handoff: the voice job ID can be passed straight into a video job as `audio_references` (no Hedra upload, no signed URLs).
+- Lip-sync: `seedance_2_5` `omni_reference` (up to 30 s) or `wan2_7` (up to 15 s, built for synced speech). Neither renders a 45 s take in one job, so split the script into 10 to 15 s takes and plan a cutaway at every join. Hedra VEED remains the only approved full-take option for Presenter B.
+- Everything else (orientation rules, still first, owner review, drafts only) is unchanged.
+- Use the Higgsfield path when the clip is short or heavy on b-roll. Use Hedra when a long continuous presenter take matters. Decide per episode in the shot list.
+
+## Editors (Premiere Pro, After Effects, AEJuice)
+
+Premiere Pro, After Effects and the AEJuice plug-ins run on the owner's computer and have no cloud connector. From this cloud session the only editing is `tools/stitch_short.py` (ffmpeg) and the Adobe for creativity connector's `video_render` timeline tool. Higgsfield ships a `/use-after-effects` bridge (local Node MCP server driving After Effects by ExtendScript) that installs only from a local Claude Code session on the same machine as After Effects; Cowork and cloud sessions are not supported for it. The split that works:
+
+- Cloud session: script, lint, voice, avatar, b-roll, `edit.json`, a stitched review cut, RobinReach draft.
+- Owner's machine: open the same clips in Premiere, add AEJuice lower thirds, captions and transitions from `drafts/<slug>/edit.json`, export the master. The edit list is the handover document.
 
 ## Labels
 
@@ -57,7 +74,7 @@ Higgsfield models default to US traffic. Every road or cab prompt must include:
 
 | Symptom | Cause | Fix |
 |---|---|---|
-| Voice does not match the original | Higgsfield tool `elevenlabs_v4` returns 422; `text2speech_v2` ignores stability settings | Use Hedra `elevenlabs-v3` with the cloned voice |
+| Voice does not match the original | Higgsfield `elevenlabs_v4` returned 422 with a preset voice on 1 October; `text2speech_v2` ignores stability settings | Use Hedra `elevenlabs-v3` with the cloned voice, or the Higgsfield voice Element with `elevenlabs_v4` (worked 3 October with Esa) |
 | Hedra rejects an audio or image link | External URLs must come from Hedra `upload_file`; links are one-hour signed URLs and easy to mistype | Upload, then use the exact URL immediately, or use a library asset ID. Uploaded files become library assets once used |
 | Mouth movement shows AI tells | Video model lip-sync is weak | Use Hedra Avatar, cut away often, keep clips short |
 | Lip-sync drifts in parts of a long take (seen on Presenter B, 49 s, Hedra Avatar) | Single long take | Compare VEED Fabric 1.0 and Kling AI Avatar v2 (pro) on the same still and audio; split the audio into 10 to 15 second takes; cover drifting sections with b-roll in the edit |

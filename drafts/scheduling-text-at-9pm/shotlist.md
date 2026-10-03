@@ -37,9 +37,10 @@ No on-screen AI banner, no end card, no spoken disclaimer (owner decision 3 Octo
 - [x] Esa voice generated as five takes (Hedra elevenlabs-v3), 5 min 18 s total, about 64 credits
 - [x] Seven 16:9 b-roll stills generated in Higgsfield (job IDs in `edit.json`)
 - [x] Five editor graphics built
-- [ ] Owner approves the script and listens to the Esa takes in the Hedra library (assets in `edit.json`)
+- [x] Owner approved the script and said render, 3 October 2026
 - [ ] Owner checks the seven stills in Higgsfield for orientation (night highway and dock queue are the two road shots; diary close-up must show the steering wheel on the right)
-- [ ] Animate approved stills (seedance_2_5, 16:9, 6 s); owner uploads the clips to Hedra
-- [ ] VEED renders per take (about 8,900 credits at the Albury rate for 318 s; Hedra Avatar would be about 2,200)
+- [x] Seven stills animated (job IDs in `edit.json`)
+- [ ] Owner uploads the seven clips to the Hedra library
+- [x] VEED renders submitted for all five takes (job IDs in `edit.json`)
 - [ ] Stitch with `tools/stitch_video.py edit.json`; review copy to owner
 - [ ] Owner uploads the 1080p master to RobinReach; YouTube draft, unlisted, from `youtube-description.txt`

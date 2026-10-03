@@ -31,10 +31,11 @@ Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken di
 - [x] Lip-sync clip submitted (Hedra job `job_fa6bfac8-d11f-4b48-a480-b99636e50768`)
 - [x] Four b-roll stills generated for orientation check: truck on highway `e52d12a9`, cab and diary `cfd1433f`, camera pole `a7fd8d32`, safety station `814d1ad6`
 - [x] Owner review of the Hedra Avatar clip: voice fine, mouth a little out of sync in parts
-- [ ] Comparison renders on the same still and audio: VEED Fabric 1.0 (`job_b56a60bf-6d81-48df-998f-fe3f8c648451`), Kling AI Avatar v2 standard (`job_e04a7f82-665f-4280-bfad-7eec70c2e240`), Kling pro (see below). Owner picks the best, or we split into shorter takes
+- [x] Comparison renders on the same still and audio: VEED Fabric 1.0 (`job_b56a60bf-6d81-48df-998f-fe3f8c648451`), Kling AI Avatar v2 standard (`job_e04a7f82-665f-4280-bfad-7eec70c2e240`), Kling pro (see below). Owner picks the best, or we split into shorter takes
 - [x] Owner checked stills: cab `cfd1433f`, camera pole `a7fd8d32`, safety station `814d1ad6` passed; highway `e52d12a9` failed (truck on the wrong side). Replacement highway stills `b0702e13`, `12d6da65`, `44b5d256` all passed (shot from behind so the lane is unambiguous)
 - [x] Animated: cab `84626d03`, camera pole `a3c4df88`, safety station `5d5ed63a`, highway `c60cb3e8` (6 s each, 9:16)
 - [x] Owner picked the voice (Esa) and the render (VEED Fabric `job_b56a60bf`). Samarth, A. Shrey, Hedra Avatar and Kling versions are not used
 - [x] First cut (52 s, with banner and end card) sent 2 October; owner asked for banner, end card and spoken disclaimer removed
 - [x] Second cut (45 s, 1080x1920) from the re-voiced VEED render, no banner, no end card, sent to the owner on 3 October 2026
+- [x] Owner approved the v2 cut, 3 October 2026
 - [ ] RobinReach draft (blocked from the cloud session: network policy denies robinreach.com uploads; 13 MB 1080p web master sent to the owner)

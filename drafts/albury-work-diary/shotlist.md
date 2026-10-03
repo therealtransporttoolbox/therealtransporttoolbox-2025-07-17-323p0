@@ -36,5 +36,5 @@ Owner decision 3 October 2026: no on-screen AI banner, no end card, no spoken di
 - [x] Animated: cab `84626d03`, camera pole `a3c4df88`, safety station `5d5ed63a`, highway `c60cb3e8` (6 s each, 9:16)
 - [x] Owner picked the voice (Esa) and the render (VEED Fabric `job_b56a60bf`). Samarth, A. Shrey, Hedra Avatar and Kling versions are not used
 - [x] First cut (52 s, with banner and end card) sent 2 October; owner asked for banner, end card and spoken disclaimer removed
-- [ ] Second cut from the re-voiced render, no banner or end card, pending
+- [x] Second cut (45 s, 1080x1920) from the re-voiced VEED render, no banner, no end card, sent to the owner on 3 October 2026
 - [ ] RobinReach draft

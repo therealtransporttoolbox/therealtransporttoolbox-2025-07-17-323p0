@@ -39,8 +39,8 @@ No on-screen AI banner, no end card, no spoken disclaimer (owner decision 3 Octo
 - [x] Five editor graphics built
 - [x] Owner approved the script and said render, 3 October 2026
 - [ ] Owner checks the seven stills in Higgsfield for orientation (night highway and dock queue are the two road shots; diary close-up must show the steering wheel on the right)
-- [x] Seven stills animated (job IDs in `edit.json`)
+- [x] Seven stills animated, all complete (job IDs in `edit.json`)
 - [ ] Owner uploads the seven clips to the Hedra library
-- [x] VEED renders submitted for all five takes (job IDs in `edit.json`)
+- [x] VEED renders complete for all five takes, 3 October 2026: 29.1 s, 84.8 s, 74.2 s, 91.8 s, 38.1 s. Cost 9,548 credits
 - [ ] Stitch with `tools/stitch_video.py edit.json`; review copy to owner
 - [ ] Owner uploads the 1080p master to RobinReach; YouTube draft, unlisted, from `youtube-description.txt`

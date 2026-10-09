@@ -38,9 +38,9 @@ No on-screen AI banner, no end card, no spoken disclaimer (owner decision 3 Octo
 - [x] Seven 16:9 b-roll stills generated in Higgsfield (job IDs in `edit.json`)
 - [x] Five editor graphics built
 - [x] Owner approved the script and said render, 3 October 2026
-- [ ] Owner checks the seven stills in Higgsfield for orientation (night highway and dock queue are the two road shots; diary close-up must show the steering wheel on the right)
+- [x] Orientation checked on the finished clips, 9 October 2026: diary shows the wheel on the right, night highway truck in the left lane, queue and rest area on the left shoulder
 - [x] Seven stills animated, all complete (job IDs in `edit.json`)
-- [ ] Owner uploads the seven clips to the Hedra library
+- [x] Owner uploaded the seven clips to the Hedra library, 9 October 2026 (asset IDs in `edit.json`)
 - [x] VEED renders complete for all five takes, 3 October 2026: 29.1 s, 84.8 s, 74.2 s, 91.8 s, 38.1 s. Cost 9,548 credits
 - [ ] Stitch with `tools/stitch_video.py edit.json`; review copy to owner
 - [ ] Owner uploads the 1080p master to RobinReach; YouTube draft, unlisted, from `youtube-description.txt`

@@ -141,6 +141,7 @@
     "broll_stills_16x9": "Higgsfield nano_banana_pro 16:9, 3 October 2026, awaiting owner orientation check before animating: phone 3e098e3c, despatch bc38a810, queue 0256e683, diary 35058ddd, highway-night f2ea4daf, planner 511ed1ca, rest-area 6dafa606",
     "graphics": "Pillow, 1920x1080: who-is-a-scheduler, 2022-case, standard-hours, the-sum, 6pm-rule",
     "timing_note": "Times estimated from word position in each take's audio; nudge after the first render",
-    "broll_clips_16x9": "seedance_2_5 16:9 1080p 6 s, submitted 3 October 2026: phone f6940f1a, despatch e07470e8, queue 7ecacef3, diary dd61e438, highway-night cf690703, planner 9ca9cd85, rest-area 6dafa606->466b9b44. Owner uploads the finished clips to the Hedra library with these file names."
+    "broll_clips_16x9": "seedance_2_5 16:9 1080p 6 s, submitted 3 October 2026: phone f6940f1a, despatch e07470e8, queue 7ecacef3, diary dd61e438, highway-night cf690703, planner 9ca9cd85, rest-area 6dafa606->466b9b44. Owner uploads the finished clips to the Hedra library with these file names.",
+    "broll_clips_hedra": "Owner uploaded to Hedra 9 October 2026 (Hedra renamed them). phone asset_ade5771d, despatch asset_26de9b1a, queue asset_c89732f1, diary asset_a9d16b27, highway-night asset_a59d0284, planner asset_d6cce1d7, rest-area asset_828388dc. Matched by frame check; asset_f68bd9d5 and asset_47585905 in the same upload are Gosford clips, not used here."
   }
 }

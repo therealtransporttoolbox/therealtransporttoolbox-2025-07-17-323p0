@@ -42,5 +42,5 @@ No on-screen AI banner, no end card, no spoken disclaimer (owner decision 3 Octo
 - [x] Seven stills animated, all complete (job IDs in `edit.json`)
 - [x] Owner uploaded the seven clips to the Hedra library, 9 October 2026 (asset IDs in `edit.json`)
 - [x] VEED renders complete for all five takes, 3 October 2026: 29.1 s, 84.8 s, 74.2 s, 91.8 s, 38.1 s. Cost 9,548 credits
-- [ ] Stitch with `tools/stitch_video.py edit.json`; review copy to owner
+- [x] Stitched with `tools/stitch_video.py edit.json`, 9 October 2026: 5 min 20 s, 1920x1080, 25 fps. 720p review copy and 1080p master sent to owner. Long captions now wrap to two lines
 - [ ] Owner uploads the 1080p master to RobinReach; YouTube draft, unlisted, from `youtube-description.txt`

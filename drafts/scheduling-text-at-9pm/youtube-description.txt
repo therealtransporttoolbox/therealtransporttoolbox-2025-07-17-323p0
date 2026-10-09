@@ -1,3 +1,6 @@
+FORMAT
+YouTube long-form, 1920x1080, 5 min 20 s. Presenter B (Esa).
+
 TITLE
 The text at 9 pm: why the scheduler, not just the driver, is on the hook under the HVNL
 
@@ -44,5 +47,15 @@ Chapters
 TAGS
 HVNL, scheduler, chain of responsibility, fatigue management, work and rest hours, NHVR, prohibited request, transport scheduling, Australian trucking, CoR
 
+PINNED COMMENT
+Which run do you do every week that you already know does not fit? Tell us the run, not the company.
+
+THUMBNAIL
+thumbnail.png in the upload folder. Text: "9:15 PM" and "WHO SENT THE TEXT?".
+
 UPLOAD NOTES
-Unlisted for owner review. Altered or synthetic content disclosure ON. Playlist: Chain of Responsibility in Heavy Vehicle National Law.
+- Visibility: unlisted for owner review, then public on the Sunday schedule
+- Altered or synthetic content disclosure: ON (AI presenter)
+- Playlist: Chain of Responsibility in Heavy Vehicle National Law
+- Not made for kids. Category: Education
+- Not yet in RobinReach. Upload the master to RobinReach Library, Uploads and ask Claude to draft it, or upload this file directly to YouTube

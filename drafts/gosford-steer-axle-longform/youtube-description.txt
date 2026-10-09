@@ -1,3 +1,6 @@
+FORMAT
+YouTube long-form, 1920x1080, 3 min 23 s. Presenter A (Marty).
+
 TITLE
 Steer axle at 134.5%: how a clean-record operator got a severe risk breach at Gosford
 
@@ -33,7 +36,15 @@ Chapters
 TAGS
 HVNL, heavy vehicle national law, steer axle, mass limits, load distribution, NHVR, chain of responsibility, Gosford, Australian trucking, transport compliance
 
+PINNED COMMENT
+Tomorrow morning a loader puts the heavy end of a load at the front of a tray. Who in your operation notices before the truck reaches the motorway?
+
+THUMBNAIL
+thumbnail.png in the upload folder. Text: "134.5%" and "STEER AXLE".
+
 UPLOAD NOTES
 - Visibility: unlisted for owner review, then public on the Sunday schedule
 - Altered or synthetic content disclosure: ON (AI presenter)
-- Playlist: trust lane case reviews
+- Playlist: Chain of Responsibility in Heavy Vehicle National Law
+- Not made for kids. Category: Education
+- Already drafted in RobinReach as post 1056612 (YouTube, unlisted). Publish from there, or upload this file directly. Not both

@@ -1,0 +1,145 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "gap": 0.4,
+  "takes": [
+    "take1.mp4",
+    "take2.mp4",
+    "take3.mp4",
+    "take4.mp4"
+  ],
+  "cuts": [
+    [
+      "highway.mp4",
+      0.0,
+      6.0
+    ],
+    [
+      "weighbridge.mp4",
+      12.8,
+      18.0
+    ],
+    [
+      "steer.mp4",
+      18.5,
+      24.5
+    ],
+    [
+      "graphic-breach-bands.png",
+      25.5,
+      35.2
+    ],
+    [
+      "inspection.mp4",
+      44.0,
+      50.0
+    ],
+    [
+      "forklift.mp4",
+      57.5,
+      63.5
+    ],
+    [
+      "graphic-tray-side.png",
+      68.5,
+      80.0
+    ],
+    [
+      "steer.mp4",
+      95.5,
+      101.5
+    ],
+    [
+      "bdouble.mp4",
+      104.0,
+      110.0
+    ],
+    [
+      "weighbridge.mp4",
+      132.0,
+      137.5
+    ],
+    [
+      "prestart.mp4",
+      144.5,
+      150.5
+    ],
+    [
+      "forklift.mp4",
+      152.5,
+      158.3
+    ]
+  ],
+  "captions": [
+    [
+      15.0,
+      25.0,
+      "Steer axle limit: 6.5 t. Measured: 8.74 t.\n134.5% of the limit"
+    ],
+    [
+      37.0,
+      50.0,
+      "Gosford Local Court, 22 September 2026.\nFine $21,000. Maximum $108,000."
+    ],
+    [
+      57.5,
+      67.5,
+      "Load placed too far forward on the tray"
+    ],
+    [
+      81.0,
+      93.0,
+      "Every axle group has its own limit"
+    ],
+    [
+      122.0,
+      130.5,
+      "1. Mass limits, told to loaders and drivers"
+    ],
+    [
+      131.5,
+      137.3,
+      "2. A way to check the weight"
+    ],
+    [
+      138.2,
+      143.0,
+      "3. Training, for everyone involved"
+    ],
+    [
+      144.0,
+      151.0,
+      "4. Mass and load checks on the pre-start"
+    ],
+    [
+      151.8,
+      158.8,
+      "5. A load distribution plan"
+    ],
+    [
+      174.0,
+      181.5,
+      "Who notices before the truck reaches the motorway?"
+    ],
+    [
+      183.0,
+      192.5,
+      "$21,000 of a possible $108,000"
+    ],
+    [
+      196.5,
+      201.5,
+      "Source: NHVR court outcomes, 22 September 2026"
+    ]
+  ],
+  "titles": [],
+  "output": "gosford-steer-axle-longform.mp4",
+  "_sources": {
+    "takes": "Hedra Avatar 3:4 720p from Presenter A start frame asset_04c3ea2e, audio Marty V3 elevenlabs-v3: take1 job_7c423342 (asset_8fc7bbab audio), take2 job_1e8f1f07 (asset_4d7e7fba), take3 job_07adf6d6 (asset_3ed1fd5d), take4 job_89bf93c2 (asset_1c057257)",
+    "broll": "Higgsfield seedance_2_5 9:16 clips, fetched through Hedra upload_file: highway 5ddcd4b2, steer 5e43d71a, weighbridge 51a2927f, forklift 5f1e8f02, prestart 8b241abe, bdouble 1bee6536; inspection is Hedra library asset_c5521cb0",
+    "graphics": "Built with Pillow by the session (breach bands, tray side view); 1920x1080 PNG",
+    "timing_note": "Times estimated from word position within each take's audio duration; check against the render and nudge",
+    "broll_16x9": "Regenerated 3 October 2026 for the 16:9 master. Stills nano_banana_pro 16:9 from the approved 9:16 stills as references, orientation checked; clips seedance_2_5 omni_reference 16:9 1080p 6 s: highway 052a9574 (still e37c8519), steer a5237cd6 (still 38309946), weighbridge bc36c877 (still aa3aebb2), forklift ac7b276f (still 8c1d12c8), prestart caf20dc4 (still f2fbce06), bdouble e6f541c8 (still 172bb31d), inspection 9141ec8d (still 7d1b26ff, regenerated so the driver's door is on the right-hand side). Replace the same-named 9:16 files with these before running stitch_video.py."
+  }
+}

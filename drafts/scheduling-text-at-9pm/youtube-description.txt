@@ -1,0 +1,61 @@
+FORMAT
+YouTube long-form, 1920x1080, 5 min 20 s. Presenter B (Esa).
+
+TITLE
+The text at 9 pm: why the scheduler, not just the driver, is on the hook under the HVNL
+
+DESCRIPTION
+9:15 on a Tuesday night. A driver's phone lights up: "Need you on the 3 am Adelaide. Confirm." He finished at 6:30. On paper the rest fits. Nobody has done the rest of the sum.
+
+This video is about the person who sends that text. Under the Heavy Vehicle National Law a scheduler is anyone who schedules the transport of goods or a driver's work and rest times, whatever their job title. In December 2022 the NSW Supreme Court fined a scheduler $15,000 as an individual, alongside a $180,000 fine for the company and $15,000 for its managing director.
+
+Covered:
+- Who counts as a scheduler (HVNL s 5 and s 26A), including the despatch desk and the booking receptionist
+- The prohibited request, s 26E, and the "knew or ought to have known" test
+- What counts as work under s 221, including engine running in a dock queue
+- Standard hours and the 14-day trap
+- The sum we recommend before you say yes, and the Adelaide run worked through
+- The 6 pm rule for schedule changes, and why the text message is a statutory record
+- "Encourage includes give an incentive": on-time bonuses, late deductions and KPIs
+
+Sources
+Heavy Vehicle National Law (Queensland), reprint as at 1 August 2026: s 5, s 26A, s 26C, s 26E, s 221, s 319, s 325, s 341. legislation.qld.gov.au
+Heavy Vehicle (Fatigue Management) National Regulation, Schedule 1 Table 1
+NHVR media release, 13 December 2022
+NHVR court outcomes: https://www.nhvr.gov.au/law-policies/prosecutions/court-outcomes
+TRTT Playbook 02, Scheduling and Delivery Windows (Operator and Chain editions): on the TRTT site
+
+Penalty amounts are indexed each 1 July under s 737. Check the NHVR penalties page for the current figures.
+
+The Real Transport Toolbox explains Australian heavy vehicle law in plain English for the people who carry the duty: owner-operators, schedulers, loaders, booking desks and drivers.
+
+General information, not legal advice. Verify current requirements with the NHVR before acting.
+
+Chapters
+0:00 The text at 9:15 pm
+0:30 Who is a scheduler
+1:03 The scheduler's own duty, s 26E
+1:34 The 2022 case: $15,000 for the scheduler
+1:55 What counts as work
+2:22 Standard hours and the 14-day trap
+2:43 The sum, before you say yes
+3:09 The 3 am Adelaide, worked through
+4:09 The 6 pm rule
+4:42 Incentives are encouragement
+4:58 The question for your operation
+
+TAGS
+HVNL, scheduler, chain of responsibility, fatigue management, work and rest hours, NHVR, prohibited request, transport scheduling, Australian trucking, CoR
+
+PINNED COMMENT
+Which run do you do every week that you already know does not fit? Tell us the run, not the company.
+
+THUMBNAIL
+thumbnail.png in the upload folder. Text: "9:15 PM" and "WHO SENT THE TEXT?".
+
+UPLOAD NOTES
+- Visibility: unlisted for owner review, then public on the Sunday schedule
+- Altered or synthetic content disclosure: ON (AI presenter)
+- Playlist: Chain of Responsibility in Heavy Vehicle National Law
+- Not made for kids. Category: Education
+- Not yet in RobinReach. Upload the master to RobinReach Library, Uploads and ask Claude to draft it, or upload this file directly to YouTube

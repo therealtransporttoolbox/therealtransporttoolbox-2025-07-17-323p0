@@ -1,0 +1,5 @@
+Under the Heavy Vehicle National Law, a scheduler is anyone who schedules the transport of goods, or the work and rest times of a driver. Two limbs. The person who writes the roster is one. The despatch desk that says pickup at 4 pm is the other. The receptionist who books three trucks a week is a scheduler for those three trucks. Section 26A says your duty depends on what you actually do, not your job title.
+
+Here is the part that gets people. A scheduler is a party in the chain of responsibility in their own right. Section 26E says a person must not ask, direct or require a driver to do something that would make the driver speed, drive tired, or break the work and rest hours. The test is what you knew, or ought to have known. Maximum penalty, $20,000, and it applies to the individual.
+
+In December 2022 the New South Wales Supreme Court fined a transport company $180,000. It also fined the managing director $15,000, and the scheduler $15,000. The scheduler was prosecuted as a person, not as the company. The regulator said schedulers have their own duty under the law.

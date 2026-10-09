@@ -58,7 +58,18 @@ def card(path, text, W, H, size, y_of, alpha=150, pad=22, spacing=12):
     font = ImageFont.truetype(FONT, size)
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    lines = text.split("\n")
+    lines = []
+    for para in text.split("\n"):
+        # Wrap any line wider than 86 percent of the frame onto extra lines.
+        cur = ""
+        for word in para.split(" "):
+            trial = (cur + " " + word).strip()
+            if cur and d.textlength(trial, font=font) > W * 0.86:
+                lines.append(cur)
+                cur = word
+            else:
+                cur = trial
+        lines.append(cur)
     widths = [d.textlength(l, font=font) for l in lines]
     lh = size + spacing
     tw, th = max(widths), lh * len(lines) - spacing
